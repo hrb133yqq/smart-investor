@@ -4,3 +4,21 @@
 2. 数据萃取与更正: 生成统一json格式的数据。
 3. 数据加工: 数据单位标准化。
 4. 原则应用于：展示符合一定原则的股票数据与指标。
+
+文件夹结构
+
++ smart-investor
+    + data
+	    + raw
+		    + sh
+			+ sz
+		+ refined
+		    + sh
+			+ sz
+	+ program
+	    + raw
+		    + sh
+			+ sz
+		+ refined
+		    + sh
+			+ sz

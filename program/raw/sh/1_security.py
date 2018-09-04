@@ -1,3 +1,5 @@
+from security_functions import download
+
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -13,19 +15,6 @@ download_headers={
     'Referer':'http://www.sse.com.cn/assortment/stock/list/share',
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
 }
-
-import os.path
-import requests
-
-def download(url, headers, saveTo):
-    if os.path.isfile(saveTo):
-        print "File exists:", saveTo
-    else:
-        response = requests.get(url, headers=headers)
-        file = open(saveTo, "w")
-        file.write(response.content)
-        file.close()
-        print "File created:", saveTo
 
 url_file_arr = [
     {'url': url_shA, 'file':raw_sh+"1_security/shA.xls"},

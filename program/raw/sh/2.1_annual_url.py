@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from functions import download, get
+from security_functions import download, get
 import json
 
 import sys

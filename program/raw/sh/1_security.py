@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from functions import download
+from net_functions import download
 
 import sys
 reload(sys)

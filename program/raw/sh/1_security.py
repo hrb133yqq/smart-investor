@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from net_functions import download
+import net_functions
 
 import sys
 reload(sys)
@@ -23,4 +23,4 @@ url_file_arr = [
 ]
 
 for url_file in url_file_arr:
-    download(url_file['url'], download_headers, url_file['file'])
+    net_functions.download(url_file['url'], download_headers, url_file['file'])

@@ -11,7 +11,7 @@ def init_db():
         cur.execute("SELECT COUNT(1) FROM sqlite_master WHERE type='table' AND name='security'")
         exist = cur.fetchone()[0]
         if not exist:
-            cur.execute('CREATE TABLE security(code varchar(6) NOT NULL UNIQUE, listingdate date)')
+            cur.execute('CREATE TABLE security(code varchar(6) NOT NULL UNIQUE, listingdate date, divident_info varchar(8000))')
             print "created table security success!"
         else:
             print "table security exists!"
@@ -21,13 +21,21 @@ def insert_security_info(infos):
     info_array = [(info["code"],info["listingdate"]) for info in infos]
     with conn:
         cur = conn.cursor()
-        cur.executemany('INSERT OR IGNORE INTO security VALUES (?,?)', info_array)
+        cur.executemany('INSERT OR IGNORE INTO security(code, listingdate) VALUES (?,?)', info_array)
         print "inserted security info!"
 
-def update_listing_date(infos):
+def revise_listing_date(infos):
     conn = sqlite3.connect(dbName)
     info_array = [(info["listingdate"],info["code"]) for info in infos]
     with conn:
         cur = conn.cursor()
         cur.executemany('UPDATE security SET listingdate=? WHERE code=?', info_array)
         print "updated listing date!"
+
+def fill_divident_info(infos):
+    conn = sqlite3.connect(dbName)
+    info_array = [(info["divident_info"],info["code"]) for info in infos]
+    with conn:
+        cur = conn.cursor()
+        cur.executemany('UPDATE security SET divident_info=? WHERE code=?', info_array)
+        print "filled divident info!"

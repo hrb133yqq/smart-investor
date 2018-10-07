@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-from net_functions import download
+import net_functions
 import securitydb
 
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-url_template="http://query.sse.com.cn/commonQuery.do?jsonCallBack=jsonpCallback54906&isPagination=false&sqlId=COMMON_SSE_ZQPZ_GG_LYFP_AGFH_L&productid={0}"
+url_template="http://query.sse.com.cn/commonQuery.do?jsonCallBack=&isPagination=false&sqlId=COMMON_SSE_ZQPZ_GG_LYFP_AGFH_L&productid={0}"
 raw_sh = "../../../data/raw/sh/"
 
 download_headers={
@@ -24,4 +24,4 @@ codes = securitydb.get_security_code()
 for code in codes:
     url = url_template.format(code)
     fileName = fileName_template.format(code)
-    download(url, download_headers, fileName)
+    net_functions.download(url, download_headers, fileName)

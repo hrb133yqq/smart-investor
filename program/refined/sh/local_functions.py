@@ -1,5 +1,5 @@
 from glob import iglob
-from datetime import datetime
+from datetime import datetime, date
 from decimal import Decimal
 
 import re
@@ -40,3 +40,9 @@ def to_divident_info(info):
         'vol':int(Decimal(info['ISS_VOL'])*10000),
         'divident':info['DIVIDEND_PER_SHARE1_A']
     }
+
+def is_valuable(divident_info):
+    cur_year = date.today().year
+    real_years = set([info['date'][:4] for info in divident_info])
+    required_years = set([str(cur_year-x) for x in range(7)])
+    return required_years.issubset(real_years)

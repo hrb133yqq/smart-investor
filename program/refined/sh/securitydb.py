@@ -11,7 +11,7 @@ def init_db():
         cur.execute("SELECT COUNT(1) FROM sqlite_master WHERE type='table' AND name='security'")
         exist = cur.fetchone()[0]
         if not exist:
-            cur.execute('CREATE TABLE security(code varchar(6) NOT NULL UNIQUE, listingdate date, divident_info varchar(8000))')
+            cur.execute('CREATE TABLE security(code varchar(6) NOT NULL UNIQUE, listingdate date, divident_info varchar(8000), is_valuable int)')
             print "created table security success!"
         else:
             print "table security exists!"
@@ -34,8 +34,8 @@ def revise_listing_date(infos):
 
 def fill_divident_info(infos):
     conn = sqlite3.connect(dbName)
-    info_array = [(info["divident_info"],info["code"]) for info in infos]
+    info_array = [(info["divident_info"],int(info["is_valuable"]),info["code"]) for info in infos]
     with conn:
         cur = conn.cursor()
-        cur.executemany('UPDATE security SET divident_info=? WHERE code=?', info_array)
+        cur.executemany('UPDATE security SET divident_info=?, is_valuable=? WHERE code=?', info_array)
         print "filled divident info!"

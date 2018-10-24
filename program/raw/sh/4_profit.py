@@ -8,15 +8,15 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 raw_sh = "../../../data/raw/sh/"
-fileName_template = raw_sh + "3_balance_sheet/{0}_{1}.html"
-url_template = "http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/{0}/ctrl/{1}/displaytype/4.phtml"
+fileName_template = raw_sh + "4_profit/{0}_{1}.html"
+url_template = "http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/{0}/ctrl/{1}/displaytype/4.phtml"
 
 download_headers={
     'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
     'Accept-Encoding':'gzip, deflate',
     'Connection': 'close',
     'Host':'money.finance.sina.com.cn',
-    'Referer':'http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/600006/ctrl/2013/displaytype/4.phtml',
+    'Referer':'http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600006/ctrl/2013/displaytype/4.phtml',
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
 }
 

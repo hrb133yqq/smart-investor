@@ -11,7 +11,16 @@ def init_db():
         cur.execute("SELECT COUNT(1) FROM sqlite_master WHERE type='table' AND name='security'")
         exist = cur.fetchone()[0]
         if not exist:
-            cur.execute('CREATE TABLE security(code varchar(6) NOT NULL UNIQUE, listingdate date, divident_info varchar(8000), is_valuable int)')
+            cur.execute('''
+                CREATE TABLE security(
+                    code varchar(6) NOT NULL UNIQUE,
+                    listingdate date,
+                    divident_info varchar(8000),
+                    is_valuable int,
+                    balance_info varchar(8000),
+                    profit_info varchar(8000)
+                )
+                ''')
             print "created table security success!"
         else:
             print "table security exists!"

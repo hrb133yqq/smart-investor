@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import local_functions
 import securitydb
-import sqlite3
 import json
 
 import sys

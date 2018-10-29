@@ -1,15 +1,19 @@
 # -*- coding: utf-8 -*-
 import local_functions
 import securitydb
-import json
 
 raw_sh = "../../../data/raw/sh/"
 fileName = raw_sh + "3_balance.zip"
 
 pages = local_functions.read_html_files_from_zip(fileName)
-infos=[]
+infos={} # {'sec code':[balance_info]}
 for page in pages:
     balance_info = local_functions.to_balance_info(page)
-    #infos.append({'code': code, 'divident_info': json.dumps(divident_info), 'is_valuable':is_valuable})
+    code = balance_info['code']
+    del balance_info['code']
+    if code in infos:
+        infos[code].append(balance_info)
+    else:
+        infos[code]=[balance_info]
 
-#securitydb.fill_balance_info(infos)
+securitydb.fill_balance_info(infos)

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import sqlite3
+import json
 
 refined_sh = "../../../data/refined/sh/"
 dbName = refined_sh + "security.db"
@@ -43,8 +44,16 @@ def revise_listing_date(infos):
 
 def fill_divident_info(infos):
     conn = sqlite3.connect(dbName)
-    info_array = [(info["divident_info"],int(info["is_valuable"]),info["code"]) for info in infos]
+    info_array = [(json.dumps(info["divident_info"]),int(info["is_valuable"]),info["code"]) for info in infos]
     with conn:
         cur = conn.cursor()
         cur.executemany('UPDATE security SET divident_info=?, is_valuable=? WHERE code=?', info_array)
         print "filled divident info!"
+
+def fill_balance_info(infos):
+    conn = sqlite3.connect(dbName)
+    info_array = [(json.dumps(v),k) for k,v in infos.items()]
+    with conn:
+        cur = conn.cursor()
+        cur.executemany('UPDATE security SET balance_info=? WHERE code=?', info_array)
+        print "filled balance info!"

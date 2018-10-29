@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import local_functions
 import securitydb
-import json
 
 import sys
 reload(sys)
@@ -19,6 +18,6 @@ for j in jsons:
         divident_info = [local_functions.to_divident_info(info) for info in j['result'] if info['ISS_VOL']!='-']
         is_valuable = local_functions.is_valuable(divident_info)
 
-        infos.append({'code': code, 'divident_info': json.dumps(divident_info), 'is_valuable':is_valuable})
+        infos.append({'code': code, 'divident_info': divident_info, 'is_valuable':is_valuable})
 
 securitydb.fill_divident_info(infos)

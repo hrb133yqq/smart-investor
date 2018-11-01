@@ -1,0 +1,55 @@
+﻿<html>
+	<head>
+		<style>
+			/*
+			.freezeX{ //keep the first style
+				left: 0; // value changed when scrollX 
+				position: relative;
+			}
+			.freezeY{ //keep the second style
+				top: 0; // value changed when scrollTop
+				position: relative;
+			}
+			*/
+			.freezeHeader{
+				top: 0;
+				position: fixed;
+			}
+			.row{
+				display: flex;
+			}
+			.row >div{
+				border-right: 1px solid gray;
+				border-bottom: 1px solid gray;
+				flex: 0 0 90px;
+				word-wrap: break-word;
+				background-color: white;
+				box-sizing: border-box;
+			}
+			.row.header-row >div{
+				border-top: 1px solid gray;
+			}
+			.row >div:first-child{
+				border-left: 1px solid gray;
+			}
+			#table >.row:nth-child(even) >div{
+				background-color: whitesmoke;
+			}
+			.row.selected div{
+				background-color: lightcyan !important;
+			}
+			.hide{
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="table"></div>
+		<div id="words"></div>
+		<script src="investor_model.js" charset="utf-8"></script>
+		<script src="investor_data.js" charset="utf-8"></script>
+		<script src="investor_market.js" charset="utf-8"></script>
+		<script src="investor_controller.js" charset="utf-8"></script>
+		<script src="investor_main.js" charset="utf-8"></script>
+	</body>
+</html>

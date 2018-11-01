@@ -54,7 +54,7 @@ def read_html_files_from_zip(fileName):
                     yield html.parse(myfile).getroot()
 
 def to_balance_info(root):
-    code = get_code(root)
+    code = get_code(root, 'BalanceSheetNewTable0')
     print code
     trs = root.get_element_by_id('BalanceSheetNewTable0').xpath('tbody/tr')
 
@@ -84,6 +84,7 @@ def to_balance_info(root):
     holdersEquity = get_one_value(trs, [u'归属于母公司股东权益合计', u'归属于母公司股东的权益', u'归属于母公司所有者权益合计', u'归属于母公司的股东权益合计']) # the name is different for some company
     surplusReserve = get_one_value(trs, [u'盈余公积', u'盈余公积金金'])
     undistributedProfit = get_value(trs, u'未分配利润')
+    capitalStock = get_one_value(trs, [u'股本', u'实收资本(或股本)'])
 
     return {
         'code':code,
@@ -98,11 +99,28 @@ def to_balance_info(root):
         'noncurrentDebts':noncurrentDebts,
         'holdersEquity':holdersEquity,
         'surplusReserve':surplusReserve,
-        'undistributedProfit':undistributedProfit
+        'undistributedProfit':undistributedProfit,
+        'capitalStock':capitalStock
     }
 
-def get_code(root):
-    th = root.get_element_by_id('BalanceSheetNewTable0').xpath('thead/tr/th')[0]
+def to_profit_info(root):
+    code = get_code(root, 'ProfitStatementNewTable0')
+    print code
+    trs = root.get_element_by_id('ProfitStatementNewTable0').xpath('tbody/tr')
+
+    reportDate = get_string(trs, u'报表日期')
+    #print reportDate
+    # assets
+    holderNetProfit = get_one_value(trs, [u'归属于母公司所有者的净利润', u'归属于母公司的净利润', u'归属于母公司股东的净利润'])
+
+    return {
+        'code':code,
+        'reportDate':reportDate,
+        'holderNetProfit':holderNetProfit
+    }
+
+def get_code(root, tableId):
+    th = root.get_element_by_id(tableId).xpath('thead/tr/th')[0]
     start = th.text.index('(')+1
     end = th.text.index(')')
     return th.text[start:end]

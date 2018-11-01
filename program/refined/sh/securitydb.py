@@ -57,3 +57,11 @@ def fill_balance_info(infos):
         cur = conn.cursor()
         cur.executemany('UPDATE security SET balance_info=? WHERE code=?', info_array)
         print "filled balance info!"
+
+def fill_profit_info(infos):
+    conn = sqlite3.connect(dbName)
+    info_array = [(json.dumps(v),k) for k,v in infos.items()]
+    with conn:
+        cur = conn.cursor()
+        cur.executemany('UPDATE security SET profit_info=? WHERE code=?', info_array)
+        print "filled profit info!"

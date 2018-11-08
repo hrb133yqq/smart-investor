@@ -1,6 +1,6 @@
-# remove a file and its history. 
+# remove a file and its history.
 # Note: back up the file your self
 
 git filter-branch -f --index-filter "git rm -f --ignore-unmatch path/test.txt"
 
-git push f
+git push -f

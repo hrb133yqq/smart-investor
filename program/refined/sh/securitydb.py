@@ -17,7 +17,7 @@ def init_db():
                     code varchar(6) NOT NULL UNIQUE,
                     listingdate date,
                     divident_info varchar(8000),
-                    is_valuable int,
+                    is_D7Y int,
                     balance_info varchar(8000),
                     profit_info varchar(8000)
                 )
@@ -44,10 +44,10 @@ def revise_listing_date(infos):
 
 def fill_divident_info(infos):
     conn = sqlite3.connect(dbName)
-    info_array = [(json.dumps(info["divident_info"]),int(info["is_valuable"]),info["code"]) for info in infos]
+    info_array = [(json.dumps(info["divident_info"]),int(info["is_D7Y"]),info["code"]) for info in infos]
     with conn:
         cur = conn.cursor()
-        cur.executemany('UPDATE security SET divident_info=?, is_valuable=? WHERE code=?', info_array)
+        cur.executemany('UPDATE security SET divident_info=?, is_D7Y=? WHERE code=?', info_array)
         print "filled divident info!"
 
 def fill_balance_info(infos):

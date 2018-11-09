@@ -40,7 +40,7 @@ def to_divident_info(info):
         'divident':info['DIVIDEND_PER_SHARE1_A']
     }
 
-def is_valuable(divident_info):
+def is_D7Y(divident_info): # divident for 7 years
     cur_year = date.today().year
     real_years = set([info['date'][:4] for info in divident_info])
     required_years = set([str(cur_year-x) for x in range(7)])

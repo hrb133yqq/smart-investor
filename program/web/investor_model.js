@@ -81,7 +81,7 @@
 					price_year1: '价格 '+lastYear.toString()+'.12.31',
 					price_change_percent_in_one_year: '价格变动自'+beforeLastYear.toString()+'.12 (%)',
 					latest_price: '最近价格',
-					// pay_margin_since: '每年股利支付自',
+					// pay_divident_since: '每年股利支付自',
 					//EPS_avg_7: '每股市场收益 2010-2016 (7年平均收益)',
 					//EPS_2016: '每股收益 2016',
 					//divident_per_share_2016: '每股股利 2016',

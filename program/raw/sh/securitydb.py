@@ -16,7 +16,7 @@ def get_valuable_security_code():
     conn = sqlite3.connect(dbName)
     with conn:
         cur = conn.cursor()
-        cur.execute("SELECT code FROM security WHERE is_valuable=1")
+        cur.execute("SELECT code FROM security WHERE is_D7Y=1")
         print 'fetched all security code!'
         return [code[0] for code in cur.fetchall()]
 

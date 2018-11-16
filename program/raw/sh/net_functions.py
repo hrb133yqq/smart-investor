@@ -5,7 +5,7 @@ import time
 '''
 pre-request: pip install requests
 '''
-def download(url, headers, saveTo, sleepSeconds=3, retryTimes=0):
+def download(url, headers, saveTo, sleepSeconds=3, retryTimes=3, timeout=5):
     if os.path.isfile(saveTo):
         print "Download ignored:", saveTo
     else:
@@ -21,19 +21,19 @@ def download(url, headers, saveTo, sleepSeconds=3, retryTimes=0):
                 time.sleep(sleepSeconds)
             else:
                 print "Status code:", response.status_code
-                if retryTimes < 3:
-                    retryTimes += 1
+                if retryTimes > 0:
+                    retryTimes -= 1
                     print "Start retry:", retryTimes
-                    download(url, headers, saveTo, sleepSeconds, retryTimes)
+                    download(url, headers, saveTo, sleepSeconds, retryTimes, timeout)
                 else:
                     response.raise_for_status()
 
         except Exception as e:
             print "Exception:", e
-            if retryTimes < 3:
-                retryTimes += 1
+            if retryTimes > 0:
+                retryTimes -= 1
                 print "Start retry:", retryTimes
-                download(url, headers, saveTo, sleepSeconds, retryTimes)
+                download(url, headers, saveTo, sleepSeconds, retryTimes, timeout)
             else:
                 raise
 

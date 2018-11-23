@@ -19,7 +19,8 @@ def init_db():
                     divident_info varchar(8000),
                     is_D7Y int,
                     balance_info varchar(8000),
-                    profit_info varchar(8000)
+                    profit_info varchar(8000),
+                    price varchar(8000)
                 )
                 ''')
             print "created table security success!"

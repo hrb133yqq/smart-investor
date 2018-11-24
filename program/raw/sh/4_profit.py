@@ -20,11 +20,12 @@ download_headers={
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
 }
 
+year = local_functions.get_current_year()
 codes = securitydb.get_valuable_security_code()
 for code in codes:
     # download the first report
-    url = url_template.format(code, 2018)
-    fileName = fileName_template.format(code, 2018)
+    url = url_template.format(code, year)
+    fileName = fileName_template.format(code, year)
     net_functions.download(url, None, fileName)
     # get other report urls
     page = local_functions.read_html(fileName)

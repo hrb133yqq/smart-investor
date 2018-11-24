@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import net_functions
+import local_functions
 import securitydb
 
 import sys
@@ -17,10 +18,13 @@ download_headers={
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
 }
 
+year = local_functions.get_current_year()
+year1 = str(year-1)
+year2 = str(year-2)
 fileName_template = raw_sh + "5_price/{0}_{1}.json"
 search_info_arr=[
-    {'inYear':'2017', 'inMonth':'201712', 'searchDate':'2017-12-29'},
-    {'inYear':'2016', 'inMonth':'201612', 'searchDate':'2016-12-30'}
+    {'inYear':year1, 'inMonth':year1+'12', 'searchDate':year1+'-12-31'},
+    {'inYear':year2, 'inMonth':year2+'12', 'searchDate':year2+'-12-31'}
 ]
 codes = securitydb.get_valuable_security_code()
 

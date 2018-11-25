@@ -20,7 +20,7 @@ def init_db():
                     is_D7Y int,
                     balance_info varchar(8000),
                     profit_info varchar(8000),
-                    price varchar(8000)
+                    price_info varchar(8000)
                 )
                 ''')
             print "created table security success!"
@@ -66,3 +66,11 @@ def fill_profit_info(infos):
         cur = conn.cursor()
         cur.executemany('UPDATE security SET profit_info=? WHERE code=?', info_array)
         print "filled profit info!"
+
+def fill_price_info(infos):
+    conn = sqlite3.connect(dbName)
+    info_array = [(json.dumps(v),k) for k,v in infos.items()]
+    with conn:
+        cur = conn.cursor()
+        cur.executemany('UPDATE security SET price_info=? WHERE code=?', info_array)
+        print "filled price info!"

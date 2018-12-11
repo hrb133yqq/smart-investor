@@ -10,9 +10,9 @@ sys.setdefaultencoding('utf-8')
 raw_sh = "../../../data/raw/sh/"
 filePattern = raw_sh + "2_annual_url/*.json"
 url_static = "http://static.sse.com.cn"
-fileName_template = raw_sh + "3_annual_report/{0}_{1}.pdf"
+fileNameTemplate = raw_sh + "3_annual_report/{0}_{1}.pdf"
 
-download_headers={
+downloadHeaders={
     'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
     'Accept-Encoding':'gzip, deflate',
     'Host':'static.sse.com.cn',
@@ -27,5 +27,5 @@ for j in jsons:
         if item['bulletin_Type'] == '年报':
             url = url_static+item['URL']
             year = item['bulletin_Year']
-            fileName = fileName_template.format(code, year)
-            download(url, download_headers, fileName)
+            fileName = fileNameTemplate.format(code, year)
+            download(url, downloadHeaders, fileName)

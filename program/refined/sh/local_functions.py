@@ -19,6 +19,11 @@ def read(fileName):
     with open(fileName, "r") as file:
         return file.read()
 
+def save(data, fileName):
+    with open(fileName, "wb") as file:
+        file.write(data)
+        print "File saved:", fileName
+
 def read_json_file(fileName):
     return json.loads(read(fileName))
 
@@ -35,15 +40,15 @@ def string_to_date(date_str):
 def to_divident_info(info):
     #print info['SECURITY_CODE_A']
     return {
-        'date':info['EX_DIVIDEND_DATE_A'],
+        'date':info['RECORD_DATE_A'],
         'vol':int(Decimal(info['ISS_VOL'])*10000),
-        'divident':info['DIVIDEND_PER_SHARE1_A']
+        'divident':info['DIVIDEND_PER_SHARE2_A']
     }
 
-def is_D7Y(divident_info): # divident for 7 years
+def is_D7Y(dividentInfo): # divident for 8 years
     cur_year = date.today().year
-    real_years = set([info['date'][:4] for info in divident_info])
-    required_years = set([str(cur_year-x) for x in range(7)])
+    real_years = set([info['date'][:4] for info in dividentInfo])
+    required_years = set([str(cur_year-x) for x in range(8)])
     return required_years.issubset(real_years)
 
 def read_html_files_from_zip(fileName):
@@ -112,12 +117,64 @@ def to_profit_info(root):
     #print reportDate
     # assets
     holderNetProfit = get_one_value(trs, [u'归属于母公司所有者的净利润', u'归属于母公司的净利润', u'归属于母公司股东的净利润'])
+    EPS = get_string(trs, u'基本每股收益(元/股)')
 
     return {
         'code':code,
         'reportDate':reportDate,
-        'holderNetProfit':holderNetProfit
+        'holderNetProfit':holderNetProfit,
+        'EPS':EPS
     }
+
+def to_equity_change_info(info):
+    return {
+        'date':info['realDate'],
+        'AShares':to_int(str(info['AShares'])),
+        'BShares':to_int(str(info['BShares'])),
+        'totalShares':to_int(str(info['totalShares']))
+    }
+
+def EPS_deviation_is_big(secInfo):
+    isBig = False
+    for profitInfo in secInfo['profitInfo']:
+        reportDate = profitInfo['reportDate']
+        balanceInfo = next(balanceInfo for balanceInfo in secInfo['balanceInfo'] if reportDate == balanceInfo['reportDate'])
+        if reportDate.endswith("12-31") and profitInfo['EPS'] is not None and balanceInfo['capitalStock'] is not None:
+            capitalStock = Decimal(balanceInfo['capitalStock'])
+            theirCalcEPS = Decimal(profitInfo['EPS'])
+            holderNetProfit = Decimal(profitInfo['holderNetProfit'])
+
+            ourCalcEPC = holderNetProfit/capitalStock
+            averageEPC = (theirCalcEPS + ourCalcEPC)/2
+            deviationValue = abs(theirCalcEPS - ourCalcEPC)/2
+            deviationPercent = ((deviationValue/averageEPC)*100).quantize(Decimal('0.01'))
+
+            if deviationPercent>20:
+                print secInfo['code']
+                print 'reportDate', reportDate
+                print 'theirCalcEPS', theirCalcEPS
+                print 'ourCalcEPC', ourCalcEPC
+                print 'deviationPercent', deviationPercent
+                isBig = True
+                break
+    return isBig
+
+def total_shares_deviation_is_big(secInfo):
+    isBig = False
+    currentCapitalStock = Decimal(get_current_capital_stock(secInfo))
+    totalShares = Decimal(secInfo['totalShares'])
+    average = (currentCapitalStock + totalShares)/2
+    deviationValue = abs(currentCapitalStock - totalShares)/2
+    deviationPercent = ((deviationValue/average)*100).quantize(Decimal('0.1'))
+
+    if deviationPercent>1:
+        print secInfo['code']
+        print 'currentCapitalStock', currentCapitalStock
+        print 'totalShares', totalShares
+        print 'deviationPercent', deviationPercent
+        isBig = True
+
+    return isBig
 
 def get_code(root, tableId):
     th = root.get_element_by_id(tableId).xpath('thead/tr/th')[0]
@@ -146,3 +203,174 @@ def get_one_value(trs, names):
 
 def to_int(str):
     return None if str=='--' else int(Decimal(str.replace(',', ''))*10000)
+
+''' sec info example:
+[{
+  "code": "603993",
+  "listingDate": "2012-10-09",
+  "balanceInfo": [
+    {
+      "reportDate": "2008-12-31",
+      "totalDebts": 1094182200,
+      "capitalStock": 975234100,
+      "undistributedProfit": 1729800800,
+      "intangibleAssets": 771107500,
+      "noncurrentDebts": 65390500,
+      "surplusReserve": 949496600,
+      "currentDebts": 1028791700,
+      "currentAssets": 7674272100,
+      "totalAssets": 12739267600,
+      "noncurrentAssets": 5064995500,
+      "holdersEquity": 11237128000,
+      "goodwillAssets": null
+    }
+  ],
+  "profitInfo": [
+    {
+      "reportDate": "2008-12-31",
+      "holderNetProfit": 1640901100,
+      "EPS": "0.01"
+    },
+    {
+      "reportDate": "2009-12-31",
+      "holderNetProfit": 495094800,
+      "EPS": "0.02"
+    }
+  ],
+  "dividentInfo": [
+    {
+      "date": "2018-06-26",
+      "vol": 17665772583,
+      "divident": "0.076"
+    }
+  ],
+  "priceInfo": [
+    {
+      "closeDate": "201612",
+      "closePrice": 3.72
+    },
+    {
+      "closeDate": "2018-11-22",
+      "closePrice": 4.06
+    },
+    {
+      "closeDate": "201712",
+      "closePrice": 6.88
+    }
+  ],
+  "equityChangeInfo": [
+    {
+      "date": "2017-09-08",
+      "BShares": 0,
+      "AShares": 28103763899,
+      "totalShares": 29352080397
+    }
+  ],
+}]
+'''
+def generate_data(secInfo):
+    code=secInfo['code']
+    print code
+    lastPriceInfo = get_last_price_info(secInfo)
+    year1PriceInfo = get_year1_price_info(secInfo)
+    year2PriceInfo = get_year2_price_info(secInfo)
+    year1 = year1PriceInfo['closeDate'][:4]
+    profits = get_normalized_profits(secInfo)
+    dividents = get_normalized_dividents(secInfo)
+    balances_year1 = next(x for x in secInfo['balanceInfo'] if year1 in x['reportDate'])
+
+    return {
+        "code": 'sh'+code,
+        "year1": year1,
+        "EPS_year1": next(x['VALUE'] for x in profits if year1 in x['DATE']),
+        "EPS_avg_7": str(
+            (sum([Decimal(x['VALUE']) for x in profits[1:8]])/7
+            ).quantize(Decimal('0.01'))
+        ),
+        "last_close_date": lastPriceInfo['closeDate'],
+        "last_close_date_price": lastPriceInfo['closePrice'],
+        "price_year1": year1PriceInfo['closePrice'],
+        "price_change_percent_in_one_year": str(
+            ((Decimal(year1PriceInfo['closePrice'])-Decimal(year2PriceInfo['closePrice'])) * 100 / Decimal(year2PriceInfo['closePrice'])
+            ).quantize(Decimal('0.01'))
+        ),
+        "pay_divident_since": dividents[-1]['DATE'][:4],
+        "NAV_per_share_year1": str(
+            ((Decimal(balances_year1['holdersEquity'])-Decimal(balances_year1['intangibleAssets'] or 0)-Decimal(balances_year1['goodwillAssets'] or 0)) / Decimal(secInfo['totalShares'])
+            ).quantize(Decimal('0.01'))
+        ),
+        "divident_per_share_year1": str(
+            sum(Decimal(x['VALUE']) for x in dividents if year1 in x['DATE']
+            ).quantize(Decimal('0.01'))
+        ),
+        "dividents": dividents,
+        "profits": profits
+  }
+
+def get_last_price_info(secInfo):
+    return sorted(secInfo['priceInfo'], key=lambda info: info['closeDate'])[-1]
+
+def get_year1_price_info(secInfo):
+    return sorted(secInfo['priceInfo'], key=lambda info: info['closeDate'])[1]
+
+def get_year2_price_info(secInfo):
+    return sorted(secInfo['priceInfo'], key=lambda info: info['closeDate'])[0]
+
+def get_current_capital_stock(secInfo):
+    return sorted(secInfo['balanceInfo'], key=lambda info: info['reportDate'])[-1]['capitalStock']
+'''
+def get_capital_stock_info(secInfo):
+    capitalStockInfo = {} # {year: value}
+    for balanceInfo in secInfo['balanceInfo']:
+        year = int(balanceInfo['reportDate'][:4])
+        value = balanceInfo['capitalStock']
+        capitalStockInfo[year] = value
+    return capitalStockInfo
+'''
+
+def get_normalize_factor(secInfo, date):
+    totalShares = secInfo['totalShares']
+    sortedEquityChangeInfo = sorted(secInfo['equityChangeInfo'], key=lambda info: info['date'])
+    minChangeInfo = sortedEquityChangeInfo[0]
+    maxChangeInfo = sortedEquityChangeInfo[-1]
+    if date>=maxChangeInfo['date']:
+        return Decimal(maxChangeInfo['totalShares'])/Decimal(totalShares)
+    elif date<=minChangeInfo['date']:
+        return Decimal(minChangeInfo['totalShares'])/Decimal(totalShares)
+    else:
+        for index in range(len(sortedEquityChangeInfo)-1):
+            currInfo = sortedEquityChangeInfo[index]
+            nextInfo = sortedEquityChangeInfo[index+1]
+            if currInfo['date']<=date and nextInfo['date']>=date:
+                return Decimal(currInfo['totalShares'])/Decimal(totalShares)
+    print 'sortedEquityChangeInfo', json.dumps(sortedEquityChangeInfo)
+    print 'date', date
+    raise ValueError('can not calculate factor')
+
+def get_normalized_dividents(secInfo):
+    dividents = [
+        {
+            'DATE': x['date'],
+            'VALUE': str(
+                (Decimal(x['divident']) * get_normalize_factor(secInfo, x['date'])
+                ).quantize(Decimal('0.01'))
+            )
+        } for x in secInfo['dividentInfo']
+    ]
+    return sorted(dividents, key=lambda x:x['DATE'], reverse=True)
+
+def get_normalized_profits(secInfo):
+    minYear = get_current_year()-8
+    profits = [
+        {
+            'DATE': x['reportDate'],
+            'VALUE': str(
+                (Decimal(x['EPS']) * get_normalize_factor(secInfo, x['reportDate'])
+                ).quantize(Decimal('0.01'))
+            )
+        } for x in secInfo['profitInfo'] if int(x['reportDate'][:4])>=minYear
+    ]
+    return sorted(profits, key=lambda x:x['DATE'], reverse=True)
+
+def get_current_year():
+    return date.today().year

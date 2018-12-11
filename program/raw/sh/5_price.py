@@ -7,10 +7,10 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-url_template="http://query.sse.com.cn/security/fund/queryAllQuatAbelNew.do?jsonCallBack=&FUNDID={0}&inMonth={1}&inYear={2}&searchDate={3}"
+urlTemplate="http://query.sse.com.cn/security/fund/queryAllQuatAbelNew.do?jsonCallBack=&FUNDID={0}&inMonth={1}&inYear={2}&searchDate={3}"
 raw_sh = "../../../data/raw/sh/"
 
-download_headers={
+downloadHeaders={
     'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
     'Accept-Encoding':'gzip, deflate',
     'Host':'query.sse.com.cn',
@@ -21,7 +21,7 @@ download_headers={
 year = local_functions.get_current_year()
 year1 = str(year-1)
 year2 = str(year-2)
-fileName_template = raw_sh + "5_price/{0}_{1}.json"
+fileNameTemplate = raw_sh + "5_price/{0}_{1}.json"
 search_info_arr=[
     {'inYear':year1, 'inMonth':year1+'12', 'searchDate':year1+'-12-31'},
     {'inYear':year2, 'inMonth':year2+'12', 'searchDate':year2+'-12-31'}
@@ -30,6 +30,6 @@ codes = securitydb.get_valuable_security_code()
 
 for code in codes:
     for search_info in search_info_arr:
-        url = url_template.format(code, search_info['inMonth'], search_info['inYear'], search_info['searchDate'])
-        fileName = fileName_template.format(code, search_info['inYear'])
-        net_functions.download(url, download_headers, fileName, 5)
+        url = urlTemplate.format(code, search_info['inMonth'], search_info['inYear'], search_info['searchDate'])
+        fileName = fileNameTemplate.format(code, search_info['inYear'])
+        net_functions.download(url, downloadHeaders, fileName, 5)

@@ -24,6 +24,6 @@ def get_security_info():
     conn = sqlite3.connect(dbName, detect_types=sqlite3.PARSE_DECLTYPES)
     with conn:
         cur = conn.cursor()
-        cur.execute("SELECT code, listingdate FROM security")
+        cur.execute("SELECT code, listing_date FROM security")
         print 'fetched all security code!'
-        return [{'code':info[0], 'listingdate':info[1]} for info in cur.fetchall()]
+        return [{'code':info[0], 'listingDate':info[1]} for info in cur.fetchall()]

@@ -8,10 +8,10 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 raw_sh = "../../../data/raw/sh/"
-fileName_template = raw_sh + "4_profit/{0}_{1}.html"
-url_template = "http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/{0}/ctrl/{1}/displaytype/4.phtml"
+fileNameTemplate = raw_sh + "4_profit/{0}_{1}.html"
+urlTemplate = "http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/{0}/ctrl/{1}/displaytype/4.phtml"
 
-download_headers={
+downloadHeaders={
     'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
     'Accept-Encoding':'gzip, deflate',
     'Connection': 'close',
@@ -24,13 +24,13 @@ year = local_functions.get_current_year()
 codes = securitydb.get_valuable_security_code()
 for code in codes:
     # download the first report
-    url = url_template.format(code, year)
-    fileName = fileName_template.format(code, year)
+    url = urlTemplate.format(code, year)
+    fileName = fileNameTemplate.format(code, year)
     net_functions.download(url, None, fileName)
     # get other report urls
     page = local_functions.read_html(fileName)
     year_urls = local_functions.get_report_link_year_and_urls(page)
     # download other reports
     for year, url in year_urls:
-        fileName = fileName_template.format(code, year)
-        net_functions.download(url, download_headers, fileName, 1)
+        fileName = fileNameTemplate.format(code, year)
+        net_functions.download(url, downloadHeaders, fileName, 1)

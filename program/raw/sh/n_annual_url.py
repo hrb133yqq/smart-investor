@@ -7,7 +7,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-url_template=(
+urlTemplate=(
     "http://query.sse.com.cn/security/stock/queryCompanyStatementNew.do?jsonCallBack=&isPagination=true&"
     "productId={0}&keyWord=&isNew=1&reportType2=DQBG&reportType=YEARLY&beginDate={1}&endDate={2}&"
     "pageHelp.pageSize=25&pageHelp.pageCount=50&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5"
@@ -15,7 +15,7 @@ url_template=(
 url_static="http://static.sse.com.cn"
 raw_sh = "../../../data/raw/sh/"
 
-download_headers={
+downloadHeaders={
     'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
     'Accept-Encoding':'gzip, deflate',
     'Host':'query.sse.com.cn',
@@ -23,7 +23,7 @@ download_headers={
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
 }
 
-fileName_template = raw_sh + "2_annual_url/{0}_{1}_{2}.json"
+fileNameTemplate = raw_sh + "2_annual_url/{0}_{1}_{2}.json"
 
 '''
 example:
@@ -35,13 +35,13 @@ current_year = datetime.date.today().year
 
 for info in infos:
     code = info['code']
-    listing_year = info['listingdate'].year
+    listing_year = info['listingDate'].year
     startYear = listing_year
 
     while True:
-        url = url_template.format(code, "{0}-01-01".format(startYear), "{0}-12-31".format(startYear+2))
-        fileName = fileName_template.format(code, startYear, startYear+2)
-        download(url, download_headers, fileName)
+        url = urlTemplate.format(code, "{0}-01-01".format(startYear), "{0}-12-31".format(startYear+2))
+        fileName = fileNameTemplate.format(code, startYear, startYear+2)
+        download(url, downloadHeaders, fileName)
 
         startYear = startYear + 3
         if startYear > current_year: break

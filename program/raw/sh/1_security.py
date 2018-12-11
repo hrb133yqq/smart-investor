@@ -9,7 +9,7 @@ url_shA="http://query.sse.com.cn/security/stock/downloadStockListFile.do?csrcCod
 url_shB="http://query.sse.com.cn/security/stock/downloadStockListFile.do?csrcCode=&stockCode=&areaName=&stockType=2"
 raw_sh = "../../../data/raw/sh/"
 
-download_headers={
+downloadHeaders={
     'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
     'Accept-Encoding':'gzip, deflate',
     'Host':'query.sse.com.cn',
@@ -23,4 +23,4 @@ url_file_arr = [
 ]
 
 for url_file in url_file_arr:
-    net_functions.download(url_file['url'], download_headers, url_file['file'])
+    net_functions.download(url_file['url'], downloadHeaders, url_file['file'])

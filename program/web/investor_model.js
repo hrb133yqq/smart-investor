@@ -5,7 +5,7 @@
 		// PER price earning ratio
 		// NAV net asset value
 		var model = {};
-		var currentYear = 2017
+		var currentYear = 2018
 		var lastYear = currentYear-1
 		var beforeLastYear = lastYear - 1
 		var sevenYearBefore = currentYear - 7

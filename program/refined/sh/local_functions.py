@@ -275,9 +275,12 @@ def generate_data(secInfo):
     year1PriceInfo = get_year1_price_info(secInfo)
     year2PriceInfo = get_year2_price_info(secInfo)
     year1 = year1PriceInfo['closeDate'][:4]
+    lastYear = lastPriceInfo['closeDate'][:4]
     profits = get_normalized_profits(secInfo)
     dividents = get_normalized_dividents(secInfo)
-    balances_year1 = next(x for x in secInfo['balanceInfo'] if year1 in x['reportDate'])
+    NAV_perShares = get_NAV_per_shares(secInfo)
+    debtAssetRatios = get_debt_asset_ratios(secInfo)
+    currentDebtDivideCurrentAssets = get_current_debt_divide_current_assets(secInfo)
 
     return {
         "code": 'sh'+code,
@@ -295,16 +298,14 @@ def generate_data(secInfo):
             ).quantize(Decimal('0.01'))
         ),
         "pay_divident_since": dividents[-1]['DATE'][:4],
-        "NAV_per_share_year1": str(
-            ((Decimal(balances_year1['holdersEquity'])-Decimal(balances_year1['intangibleAssets'] or 0)-Decimal(balances_year1['goodwillAssets'] or 0)) / Decimal(secInfo['totalShares'])
-            ).quantize(Decimal('0.01'))
-        ),
-        "divident_per_share_year1": str(
-            sum(Decimal(x['VALUE']) for x in dividents if year1 in x['DATE']
-            ).quantize(Decimal('0.01'))
-        ),
+        "NAV_per_share_lastYear": NAV_perShares[0]['VALUE'],
+        "divident_per_share_lastYear": dividents[0]['VALUE'],
+        "debt_asset_ratio_lastYear":debtAssetRatios[0]['VALUE'],
+        "current_debt_divide_current_asset_lastYear":currentDebtDivideCurrentAssets[0]['VALUE'] if len(currentDebtDivideCurrentAssets)>0 else '--',
         "dividents": dividents,
-        "profits": profits
+        "profits": profits,
+        "debt_asset_ratios":debtAssetRatios,
+        "current_debt_divide_current_assets":currentDebtDivideCurrentAssets
   }
 
 def get_last_price_info(secInfo):
@@ -369,6 +370,45 @@ def get_normalized_profits(secInfo):
                 ).quantize(Decimal('0.01'))
             )
         } for x in secInfo['profitInfo'] if int(x['reportDate'][:4])>=minYear
+    ]
+    return sorted(profits, key=lambda x:x['DATE'], reverse=True)
+
+def get_NAV_per_shares(secInfo):
+    minYear = get_current_year()-8
+    profits = [
+        {
+            'DATE': x['reportDate'],
+            'VALUE': str(
+                ((Decimal(x['holdersEquity'])-Decimal(x['intangibleAssets'] or 0)-Decimal(x['goodwillAssets'] or 0)) / Decimal(secInfo['totalShares'])
+                ).quantize(Decimal('0.01'))
+            )
+        } for x in secInfo['balanceInfo'] if int(x['reportDate'][:4])>=minYear
+    ]
+    return sorted(profits, key=lambda x:x['DATE'], reverse=True)
+
+def get_debt_asset_ratios(secInfo):
+    minYear = get_current_year()-8
+    profits = [
+        {
+            'DATE': x['reportDate'],
+            'VALUE': str(
+                (Decimal(x['totalDebts'])*100 / Decimal(x['totalAssets'])
+                ).quantize(Decimal('1.'))
+            )
+        } for x in secInfo['balanceInfo'] if int(x['reportDate'][:4])>=minYear
+    ]
+    return sorted(profits, key=lambda x:x['DATE'], reverse=True)
+
+def get_current_debt_divide_current_assets(secInfo):
+    minYear = get_current_year()-8
+    profits = [
+        {
+            'DATE': x['reportDate'],
+            'VALUE': str(
+                (Decimal(x['currentAssets']) / Decimal(x['currentDebts'])
+                ).quantize(Decimal('0.1'))
+            )
+        } for x in secInfo['balanceInfo'] if int(x['reportDate'][:4])>=minYear and x['currentAssets'] is not None
     ]
     return sorted(profits, key=lambda x:x['DATE'], reverse=True)
 

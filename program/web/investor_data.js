@@ -6,15 +6,55 @@
 			get: function(){
 return [
   {
-    "code": "sh600000",
-    "last_close_date": "2018-11-21",
-    "divident_per_share_year1": "0.15",
-    "NAV_per_share_year1": "14.14",
-    "year1": "2017",
-    "pay_divident_since": "2000",
-    "price_year1": 12.59,
+    "divident_per_share_lastYear": "0.10",
     "EPS_year1": "1.84",
+    "code": "sh600000",
+    "NAV_per_share_lastYear": "14.94",
+    "last_close_date": "2018-11-21",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "-22.33",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2000",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "94"
+      }
+    ],
+    "price_year1": 12.59,
     "dividents": [
       {
         "DATE": "2018-07-12",
@@ -124,18 +164,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.78"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "92"
   },
   {
-    "code": "sh600011",
-    "last_close_date": "2018-11-21",
-    "divident_per_share_year1": "0.28",
-    "NAV_per_share_year1": "3.16",
-    "year1": "2017",
-    "pay_divident_since": "2002",
-    "price_year1": 6.17,
+    "divident_per_share_lastYear": "0.10",
     "EPS_year1": "0.11",
+    "code": "sh600011",
+    "NAV_per_share_lastYear": "3.46",
+    "last_close_date": "2018-11-21",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.4"
+      }
+    ],
     "price_change_percent_in_one_year": "-12.48",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.4",
+    "pay_divident_since": "2002",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "74"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "68"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "73"
+      }
+    ],
+    "price_year1": 6.17,
     "dividents": [
       {
         "DATE": "2018-05-16",
@@ -241,18 +359,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.26"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "74"
   },
   {
-    "code": "sh600012",
-    "last_close_date": "2018-11-21",
-    "divident_per_share_year1": "0.23",
-    "NAV_per_share_year1": "-0.34",
-    "year1": "2017",
-    "pay_divident_since": "2003",
-    "price_year1": 11,
+    "divident_per_share_lastYear": "0.23",
     "EPS_year1": "0.66",
+    "code": "sh600012",
+    "NAV_per_share_lastYear": "-0.10",
+    "last_close_date": "2018-11-21",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.4"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.0"
+      }
+    ],
     "price_change_percent_in_one_year": "-33.29",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.9",
+    "pay_divident_since": "2003",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "28"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "27"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "27"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "35"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "35"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "36"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "36"
+      }
+    ],
+    "price_year1": 11,
     "dividents": [
       {
         "DATE": "2018-07-16",
@@ -358,18 +554,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.47"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "29"
   },
   {
-    "code": "sh600015",
-    "last_close_date": "2018-11-21",
-    "divident_per_share_year1": "0.15",
-    "NAV_per_share_year1": "13.10",
-    "year1": "2017",
-    "pay_divident_since": "2003",
-    "price_year1": 9,
+    "divident_per_share_lastYear": "0.15",
     "EPS_year1": "1.48",
+    "code": "sh600015",
+    "NAV_per_share_lastYear": "14.10",
+    "last_close_date": "2018-11-21",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "-17.05",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2003",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "95"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "95"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "95"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "97"
+      }
+    ],
+    "price_year1": 9,
     "dividents": [
       {
         "DATE": "2018-06-28",
@@ -475,18 +712,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.47"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "93"
   },
   {
-    "code": "sh600016",
-    "last_close_date": "2018-11-21",
-    "divident_per_share_year1": "0.24",
-    "NAV_per_share_year1": "8.54",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 8.39,
+    "divident_per_share_lastYear": "0.08",
     "EPS_year1": "1.13",
+    "code": "sh600016",
+    "NAV_per_share_lastYear": "9.28",
+    "last_close_date": "2018-11-21",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "-7.60",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "95"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "94"
+      }
+    ],
+    "price_year1": 8.39,
     "dividents": [
       {
         "DATE": "2018-07-04",
@@ -620,18 +898,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.40"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "93"
   },
   {
-    "code": "sh600018",
-    "last_close_date": "2018-11-21",
-    "divident_per_share_year1": "0.16",
-    "NAV_per_share_year1": "2.40",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 6.65,
+    "divident_per_share_lastYear": "0.17",
     "EPS_year1": "0.50",
+    "code": "sh600018",
+    "NAV_per_share_lastYear": "2.37",
+    "last_close_date": "2018-11-21",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.2"
+      }
+    ],
     "price_change_percent_in_one_year": "29.88",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.6",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "42"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "32"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "36"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "37"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "38"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "38"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "37"
+      }
+    ],
+    "price_year1": 6.65,
     "dividents": [
       {
         "DATE": "2018-06-07",
@@ -737,18 +1093,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.23"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "49"
   },
   {
-    "code": "sh600019",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.21",
-    "NAV_per_share_year1": "6.80",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 8.64,
+    "divident_per_share_lastYear": "0.45",
     "EPS_year1": "0.85",
+    "code": "sh600019",
+    "NAV_per_share_lastYear": "7.10",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.9"
+      }
+    ],
     "price_change_percent_in_one_year": "36.06",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.9",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "48"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "50"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "51"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "48"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "51"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "48"
+      }
+    ],
+    "price_year1": 8.64,
     "dividents": [
       {
         "DATE": "2018-06-07",
@@ -858,18 +1292,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.58"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "48"
   },
   {
-    "code": "sh600020",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.09",
-    "NAV_per_share_year1": "-3.95",
-    "year1": "2017",
-    "pay_divident_since": "2004",
-    "price_year1": 4.86,
+    "divident_per_share_lastYear": "0.17",
     "EPS_year1": "0.40",
+    "code": "sh600020",
+    "NAV_per_share_lastYear": "-4.51",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.7"
+      }
+    ],
     "price_change_percent_in_one_year": "8.24",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.3",
+    "pay_divident_since": "2004",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "74"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "74"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "78"
+      }
+    ],
+    "price_year1": 4.86,
     "dividents": [
       {
         "DATE": "2018-07-12",
@@ -967,18 +1479,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.23"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "76"
   },
   {
-    "code": "sh600021",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.15",
-    "NAV_per_share_year1": "4.06",
-    "year1": "2017",
-    "pay_divident_since": "2004",
-    "price_year1": 9.14,
+    "divident_per_share_lastYear": "0.18",
     "EPS_year1": "0.35",
+    "code": "sh600021",
+    "NAV_per_share_lastYear": "4.09",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.3"
+      }
+    ],
     "price_change_percent_in_one_year": "-24.71",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.4",
+    "pay_divident_since": "2004",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "71"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "70"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "70"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "67"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "68"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "73"
+      }
+    ],
+    "price_year1": 9.14,
     "dividents": [
       {
         "DATE": "2018-05-17",
@@ -1068,18 +1658,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.07"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "77"
   },
   {
-    "code": "sh600028",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.27",
-    "NAV_per_share_year1": "5.13",
-    "year1": "2017",
-    "pay_divident_since": "2002",
-    "price_year1": 6.13,
+    "divident_per_share_lastYear": "0.16",
     "EPS_year1": "0.42",
+    "code": "sh600028",
+    "NAV_per_share_lastYear": "5.07",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.8"
+      }
+    ],
     "price_change_percent_in_one_year": "13.31",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.0",
+    "pay_divident_since": "2002",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "48"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "44"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "56"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "54"
+      }
+    ],
+    "price_year1": 6.13,
     "dividents": [
       {
         "DATE": "2018-09-11",
@@ -1253,18 +1921,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.58"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "48"
   },
   {
-    "code": "sh600030",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.35",
-    "NAV_per_share_year1": "11.23",
-    "year1": "2017",
-    "pay_divident_since": "2003",
-    "price_year1": 18.1,
+    "divident_per_share_lastYear": "0.40",
     "EPS_year1": "0.94",
+    "code": "sh600030",
+    "NAV_per_share_lastYear": "11.47",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "12.70",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2003",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "67"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "41"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "54"
+      }
+    ],
+    "price_year1": 18.1,
     "dividents": [
       {
         "DATE": "2018-08-23",
@@ -1370,18 +2079,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.94"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "75"
   },
   {
-    "code": "sh600031",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.03",
-    "NAV_per_share_year1": "2.74",
-    "year1": "2017",
-    "pay_divident_since": "2004",
-    "price_year1": 9.07,
+    "divident_per_share_lastYear": "0.16",
     "EPS_year1": "0.27",
+    "code": "sh600031",
+    "NAV_per_share_lastYear": "3.38",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.2"
+      }
+    ],
     "price_change_percent_in_one_year": "48.69",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.6",
+    "pay_divident_since": "2004",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "62"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "62"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "62"
+      }
+    ],
+    "price_year1": 9.07,
     "dividents": [
       {
         "DATE": "2018-08-20",
@@ -1487,18 +2274,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.72"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "55"
   },
   {
-    "code": "sh600033",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.15",
-    "NAV_per_share_year1": "3.17",
-    "year1": "2017",
-    "pay_divident_since": "2002",
-    "price_year1": 3.65,
+    "divident_per_share_lastYear": "0.12",
     "EPS_year1": "0.24",
+    "code": "sh600033",
+    "NAV_per_share_lastYear": "3.27",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.1"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.2"
+      }
+    ],
     "price_change_percent_in_one_year": "5.49",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.9",
+    "pay_divident_since": "2002",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "37"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "40"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "52"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "56"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "52"
+      }
+    ],
+    "price_year1": 3.65,
     "dividents": [
       {
         "DATE": "2018-06-14",
@@ -1608,18 +2473,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.19"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "37"
   },
   {
-    "code": "sh600036",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.74",
-    "NAV_per_share_year1": "18.36",
-    "year1": "2017",
-    "pay_divident_since": "2003",
-    "price_year1": 29.02,
+    "divident_per_share_lastYear": "0.84",
     "EPS_year1": "2.78",
+    "code": "sh600036",
+    "NAV_per_share_lastYear": "20.03",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "64.89",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2003",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "94"
+      }
+    ],
+    "price_year1": 29.02,
     "dividents": [
       {
         "DATE": "2018-07-11",
@@ -1729,18 +2635,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "1.05"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "92"
   },
   {
-    "code": "sh600048",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.31",
-    "NAV_per_share_year1": "8.99",
-    "year1": "2017",
-    "pay_divident_since": "2007",
-    "price_year1": 14.15,
+    "divident_per_share_lastYear": "0.40",
     "EPS_year1": "1.32",
+    "code": "sh600048",
+    "NAV_per_share_lastYear": "9.48",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "2.1"
+      }
+    ],
     "price_change_percent_in_one_year": "54.98",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.8",
+    "pay_divident_since": "2007",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "79"
+      }
+    ],
+    "price_year1": 14.15,
     "dividents": [
       {
         "DATE": "2018-06-07",
@@ -1830,18 +2814,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.42"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "80"
   },
   {
-    "code": "sh600066",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "1.00",
-    "NAV_per_share_year1": "6.36",
-    "year1": "2017",
-    "pay_divident_since": "1998",
-    "price_year1": 24.07,
+    "divident_per_share_lastYear": "0.50",
     "EPS_year1": "1.41",
+    "code": "sh600066",
+    "NAV_per_share_lastYear": "6.36",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.2"
+      }
+    ],
     "price_change_percent_in_one_year": "22.87",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.5",
+    "pay_divident_since": "1998",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "54"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "63"
+      }
+    ],
+    "price_year1": 24.07,
     "dividents": [
       {
         "DATE": "2018-07-26",
@@ -1959,18 +3021,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.39"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "58"
   },
   {
-    "code": "sh600068",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.21",
-    "NAV_per_share_year1": "5.29",
-    "year1": "2017",
-    "pay_divident_since": "1999",
-    "price_year1": 8.2,
+    "divident_per_share_lastYear": "0.27",
     "EPS_year1": "0.89",
+    "code": "sh600068",
+    "NAV_per_share_lastYear": "5.41",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.3"
+      }
+    ],
     "price_change_percent_in_one_year": "-10.77",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.2",
+    "pay_divident_since": "1999",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "74"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "73"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "68"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "76"
+      }
+    ],
+    "price_year1": 8.2,
     "dividents": [
       {
         "DATE": "2018-06-22",
@@ -2080,18 +3220,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.30"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "74"
   },
   {
-    "code": "sh600089",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.18",
-    "NAV_per_share_year1": "7.00",
-    "year1": "2017",
-    "pay_divident_since": "1998",
-    "price_year1": 9.91,
+    "divident_per_share_lastYear": "0.21",
     "EPS_year1": "0.61",
+    "code": "sh600089",
+    "NAV_per_share_lastYear": "7.68",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.6"
+      }
+    ],
     "price_change_percent_in_one_year": "8.54",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.4",
+    "pay_divident_since": "1998",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "59"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "59"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "63"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "46"
+      }
+    ],
+    "price_year1": 9.91,
     "dividents": [
       {
         "DATE": "2018-07-04",
@@ -2209,18 +3427,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.47"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "59"
   },
   {
-    "code": "sh600098",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.10",
-    "NAV_per_share_year1": "5.55",
-    "year1": "2017",
-    "pay_divident_since": "2000",
-    "price_year1": 7.07,
+    "divident_per_share_lastYear": "0.10",
     "EPS_year1": "0.25",
+    "code": "sh600098",
+    "NAV_per_share_lastYear": "5.69",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.7"
+      }
+    ],
     "price_change_percent_in_one_year": "-36.99",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.0",
+    "pay_divident_since": "2000",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "50"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "48"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "50"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "51"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "32"
+      }
+    ],
+    "price_year1": 7.07,
     "dividents": [
       {
         "DATE": "2018-07-03",
@@ -2338,18 +3634,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.27"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "49"
   },
   {
-    "code": "sh600100",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.25",
-    "NAV_per_share_year1": "6.32",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 9.8,
+    "divident_per_share_lastYear": "0.01",
     "EPS_year1": "0.03",
+    "code": "sh600100",
+    "NAV_per_share_lastYear": "5.89",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.4"
+      }
+    ],
     "price_change_percent_in_one_year": "-29.24",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.1",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "64"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "68"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "67"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "67"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "57"
+      }
+    ],
+    "price_year1": 9.8,
     "dividents": [
       {
         "DATE": "2018-07-04",
@@ -2463,18 +3837,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.16"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "64"
   },
   {
-    "code": "sh600101",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.05",
-    "NAV_per_share_year1": "5.88",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 9.23,
+    "divident_per_share_lastYear": "0.05",
     "EPS_year1": "0.30",
+    "code": "sh600101",
+    "NAV_per_share_lastYear": "6.22",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.5"
+      }
+    ],
     "price_change_percent_in_one_year": "-23.40",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.2",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "31"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "31"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "30"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "31"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "32"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "31"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "36"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "38"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "44"
+      }
+    ],
+    "price_year1": 9.23,
     "dividents": [
       {
         "DATE": "2018-08-07",
@@ -2572,18 +4024,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.47"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "31"
   },
   {
-    "code": "sh600104",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "1.65",
-    "NAV_per_share_year1": "18.22",
-    "year1": "2017",
-    "pay_divident_since": "2000",
-    "price_year1": 32.04,
+    "divident_per_share_lastYear": "1.83",
     "EPS_year1": "2.96",
+    "code": "sh600104",
+    "NAV_per_share_lastYear": "18.53",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.1"
+      }
+    ],
     "price_change_percent_in_one_year": "36.63",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.1",
+    "pay_divident_since": "2000",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "62"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "62"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "59"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "54"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "64"
+      }
+    ],
+    "price_year1": 32.04,
     "dividents": [
       {
         "DATE": "2018-07-16",
@@ -2697,18 +4227,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "1.27"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "62"
   },
   {
-    "code": "sh600153",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.40",
-    "NAV_per_share_year1": "8.11",
-    "year1": "2017",
-    "pay_divident_since": "1999",
-    "price_year1": 11.12,
+    "divident_per_share_lastYear": "0.20",
     "EPS_year1": "1.17",
+    "code": "sh600153",
+    "NAV_per_share_lastYear": "8.48",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.5"
+      }
+    ],
     "price_change_percent_in_one_year": "3.93",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.6",
+    "pay_divident_since": "1999",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "74"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "73"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "81"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "82"
+      }
+    ],
+    "price_year1": 11.12,
     "dividents": [
       {
         "DATE": "2018-07-19",
@@ -2826,18 +4434,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.62"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "80"
   },
   {
-    "code": "sh600168",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.13",
-    "NAV_per_share_year1": "6.14",
-    "year1": "2017",
-    "pay_divident_since": "1999",
-    "price_year1": 8.39,
+    "divident_per_share_lastYear": "0.14",
     "EPS_year1": "0.46",
+    "code": "sh600168",
+    "NAV_per_share_lastYear": "6.34",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.7"
+      }
+    ],
     "price_change_percent_in_one_year": "-19.79",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.1",
+    "pay_divident_since": "1999",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "52"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "44"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "46"
+      }
+    ],
+    "price_year1": 8.39,
     "dividents": [
       {
         "DATE": "2018-05-03",
@@ -2959,18 +4645,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.16"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "57"
   },
   {
-    "code": "sh600170",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.11",
-    "NAV_per_share_year1": "2.81",
-    "year1": "2017",
-    "pay_divident_since": "2000",
-    "price_year1": 3.72,
+    "divident_per_share_lastYear": "0.14",
     "EPS_year1": "0.28",
+    "code": "sh600170",
+    "NAV_per_share_lastYear": "2.96",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.1"
+      }
+    ],
     "price_change_percent_in_one_year": "-21.35",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.2",
+    "pay_divident_since": "2000",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "84"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "84"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "85"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "83"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "84"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "85"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "85"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "83"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "81"
+      }
+    ],
+    "price_year1": 3.72,
     "dividents": [
       {
         "DATE": "2018-06-12",
@@ -3096,18 +4860,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.10"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "84"
   },
   {
-    "code": "sh600177",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.36",
-    "NAV_per_share_year1": "6.71",
-    "year1": "2017",
-    "pay_divident_since": "1999",
-    "price_year1": 9.17,
+    "divident_per_share_lastYear": "0.40",
     "EPS_year1": "0.08",
+    "code": "sh600177",
+    "NAV_per_share_lastYear": "7.11",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.0"
+      }
+    ],
     "price_change_percent_in_one_year": "-34.41",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.0",
+    "pay_divident_since": "1999",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "63"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "64"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "71"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "71"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "73"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "68"
+      }
+    ],
+    "price_year1": 9.17,
     "dividents": [
       {
         "DATE": "2018-06-06",
@@ -3229,18 +5071,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.75"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "65"
   },
   {
-    "code": "sh600188",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.12",
-    "NAV_per_share_year1": "1.45",
-    "year1": "2017",
-    "pay_divident_since": "1998",
-    "price_year1": 14.52,
+    "divident_per_share_lastYear": "0.48",
     "EPS_year1": "1.38",
+    "code": "sh600188",
+    "NAV_per_share_lastYear": "2.49",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "2.7"
+      }
+    ],
     "price_change_percent_in_one_year": "33.70",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.1",
+    "pay_divident_since": "1998",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "67"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "66"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "56"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "49"
+      }
+    ],
+    "price_year1": 14.52,
     "dividents": [
       {
         "DATE": "2018-06-08",
@@ -3366,18 +5286,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "1.83"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "58"
   },
   {
-    "code": "sh600266",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.28",
-    "NAV_per_share_year1": "12.90",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 13.14,
+    "divident_per_share_lastYear": "0.28",
     "EPS_year1": "0.93",
+    "code": "sh600266",
+    "NAV_per_share_lastYear": "13.62",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "2.8"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.6"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.5"
+      }
+    ],
     "price_change_percent_in_one_year": "-1.43",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "2.8",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "68"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "67"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "74"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "70"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "69"
+      }
+    ],
+    "price_year1": 13.14,
     "dividents": [
       {
         "DATE": "2018-06-28",
@@ -3483,18 +5481,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.77"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "77"
   },
   {
-    "code": "sh600269",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.15",
-    "NAV_per_share_year1": "6.21",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 5.12,
+    "divident_per_share_lastYear": "0.17",
     "EPS_year1": "0.42",
+    "code": "sh600269",
+    "NAV_per_share_lastYear": "6.13",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.4"
+      }
+    ],
     "price_change_percent_in_one_year": "1.79",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.9",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "52"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "53"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "51"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "54"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "54"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "53"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "54"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "46"
+      }
+    ],
+    "price_year1": 5.12,
     "dividents": [
       {
         "DATE": "2018-08-02",
@@ -3608,18 +5684,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.54"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "52"
   },
   {
-    "code": "sh600270",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.50",
-    "NAV_per_share_year1": "8.51",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 17.28,
+    "divident_per_share_lastYear": "0.60",
     "EPS_year1": "1.49",
+    "code": "sh600270",
+    "NAV_per_share_lastYear": "8.81",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "3.7"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "3.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "3.7"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "3.8"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "3.8"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "4.3"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "4.5"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "4.2"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "3.4"
+      }
+    ],
     "price_change_percent_in_one_year": "4.47",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "3.7",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "18"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "19"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "16"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "13"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "14"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "13"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "12"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "12"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "16"
+      }
+    ],
+    "price_year1": 17.28,
     "dividents": [
       {
         "DATE": "2018-07-09",
@@ -3733,18 +5887,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.49"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "18"
   },
   {
-    "code": "sh600325",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.44",
-    "NAV_per_share_year1": "5.55",
-    "year1": "2017",
-    "pay_divident_since": "2005",
-    "price_year1": 7.36,
+    "divident_per_share_lastYear": "0.30",
     "EPS_year1": "0.77",
+    "code": "sh600325",
+    "NAV_per_share_lastYear": "6.08",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.5"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.5"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "2.3"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "2.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "2.4"
+      }
+    ],
     "price_change_percent_in_one_year": "-42.50",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.6",
+    "pay_divident_since": "2005",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "85"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "83"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "81"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "70"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "68"
+      }
+    ],
+    "price_year1": 7.36,
     "dividents": [
       {
         "DATE": "2018-07-06",
@@ -3838,18 +6070,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.35"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "85"
   },
   {
-    "code": "sh600350",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.20",
-    "NAV_per_share_year1": "3.48",
-    "year1": "2017",
-    "pay_divident_since": "2004",
-    "price_year1": 5.99,
+    "divident_per_share_lastYear": "0.18",
     "EPS_year1": "0.55",
+    "code": "sh600350",
+    "NAV_per_share_lastYear": "3.60",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.5"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "2.3"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.7"
+      }
+    ],
     "price_change_percent_in_one_year": "-7.56",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.2",
+    "pay_divident_since": "2004",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "50"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "42"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "28"
+      }
+    ],
+    "price_year1": 5.99,
     "dividents": [
       {
         "DATE": "2018-06-14",
@@ -3951,18 +6261,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.26"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "50"
   },
   {
-    "code": "sh600352",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.20",
-    "NAV_per_share_year1": "4.86",
-    "year1": "2017",
-    "pay_divident_since": "2004",
-    "price_year1": 11.71,
+    "divident_per_share_lastYear": "0.25",
     "EPS_year1": "0.76",
+    "code": "sh600352",
+    "NAV_per_share_lastYear": "5.62",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "3.0"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.4"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.4"
+      }
+    ],
     "price_change_percent_in_one_year": "27.14",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "3.0",
+    "pay_divident_since": "2004",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "59"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "48"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "51"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "51"
+      }
+    ],
+    "price_year1": 11.71,
     "dividents": [
       {
         "DATE": "2018-06-07",
@@ -4060,18 +6448,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.26"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "58"
   },
   {
-    "code": "sh600362",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.15",
-    "NAV_per_share_year1": "13.03",
-    "year1": "2017",
-    "pay_divident_since": "2002",
-    "price_year1": 20.17,
+    "divident_per_share_lastYear": "0.20",
     "EPS_year1": "0.46",
+    "code": "sh600362",
+    "NAV_per_share_lastYear": "13.56",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "2.5"
+      }
+    ],
     "price_change_percent_in_one_year": "20.56",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.5",
+    "pay_divident_since": "2002",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "51"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "44"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "51"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "44"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "42"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "37"
+      }
+    ],
+    "price_year1": 20.17,
     "dividents": [
       {
         "DATE": "2018-07-24",
@@ -4185,18 +6651,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "1.56"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "51"
   },
   {
-    "code": "sh600376",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.35",
-    "NAV_per_share_year1": "11.50",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 9.29,
+    "divident_per_share_lastYear": "0.60",
     "EPS_year1": "0.73",
+    "code": "sh600376",
+    "NAV_per_share_lastYear": "11.45",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.9"
+      }
+    ],
     "price_change_percent_in_one_year": "-21.34",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.8",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "82"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "81"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "83"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "83"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "83"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "75"
+      }
+    ],
+    "price_year1": 9.29,
     "dividents": [
       {
         "DATE": "2018-06-20",
@@ -4310,18 +6854,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.52"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "82"
   },
   {
-    "code": "sh600377",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.42",
-    "NAV_per_share_year1": "0.71",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 9.85,
+    "divident_per_share_lastYear": "0.44",
     "EPS_year1": "0.71",
+    "code": "sh600377",
+    "NAV_per_share_lastYear": "1.07",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.6"
+      }
+    ],
     "price_change_percent_in_one_year": "15.20",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.8",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "37"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "39"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "37"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "42"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "24"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "25"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "26"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "27"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "28"
+      }
+    ],
+    "price_year1": 9.85,
     "dividents": [
       {
         "DATE": "2018-07-12",
@@ -4435,18 +7057,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.49"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "37"
   },
   {
-    "code": "sh600382",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.04",
-    "NAV_per_share_year1": "10.90",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 12.58,
+    "divident_per_share_lastYear": "0.04",
     "EPS_year1": "0.71",
+    "code": "sh600382",
+    "NAV_per_share_lastYear": "11.48",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "7.2"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "9.0"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "6.9"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "5.3"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "9.0"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "4.3"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "6.0"
+      }
+    ],
     "price_change_percent_in_one_year": "-30.88",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "7.2",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "16"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "18"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "12"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "9"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "4"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "10"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "10"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "11"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "12"
+      }
+    ],
+    "price_year1": 12.58,
     "dividents": [
       {
         "DATE": "2018-06-14",
@@ -4556,18 +7256,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.37"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "16"
   },
   {
-    "code": "sh600383",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.70",
-    "NAV_per_share_year1": "9.02",
-    "year1": "2017",
-    "pay_divident_since": "2002",
-    "price_year1": 12.63,
+    "divident_per_share_lastYear": "0.53",
     "EPS_year1": "1.52",
+    "code": "sh600383",
+    "NAV_per_share_lastYear": "9.64",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "2.2"
+      }
+    ],
     "price_change_percent_in_one_year": "-2.55",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.7",
+    "pay_divident_since": "2002",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "66"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "67"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "70"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "71"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "71"
+      }
+    ],
+    "price_year1": 12.63,
     "dividents": [
       {
         "DATE": "2018-07-10",
@@ -4673,18 +7451,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.59"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "76"
   },
   {
-    "code": "sh600395",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.24",
-    "NAV_per_share_year1": "3.40",
-    "year1": "2017",
-    "pay_divident_since": "2002",
-    "price_year1": 6.87,
+    "divident_per_share_lastYear": "0.35",
     "EPS_year1": "0.53",
+    "code": "sh600395",
+    "NAV_per_share_lastYear": "3.68",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "2.3"
+      }
+    ],
     "price_change_percent_in_one_year": "-14.87",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.3",
+    "pay_divident_since": "2002",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "44"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "42"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "42"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "41"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "39"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "23"
+      }
+    ],
+    "price_year1": 6.87,
     "dividents": [
       {
         "DATE": "2018-08-17",
@@ -4794,18 +7650,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.81"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "43"
   },
   {
-    "code": "sh600398",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.49",
-    "NAV_per_share_year1": "2.38",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 9.7,
+    "divident_per_share_lastYear": "0.48",
     "EPS_year1": "0.74",
+    "code": "sh600398",
+    "NAV_per_share_lastYear": "2.62",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "2.4"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "3.1"
+      }
+    ],
     "price_change_percent_in_one_year": "-10.10",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.6",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "56"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "59"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "64"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "62"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "33"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "24"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "18"
+      }
+    ],
+    "price_year1": 9.7,
     "dividents": [
       {
         "DATE": "2018-06-07",
@@ -4907,18 +7841,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.02"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "56"
   },
   {
-    "code": "sh600418",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.19",
-    "NAV_per_share_year1": "5.82",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 9.46,
+    "divident_per_share_lastYear": "0.07",
     "EPS_year1": "0.23",
+    "code": "sh600418",
+    "NAV_per_share_lastYear": "5.64",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.9"
+      }
+    ],
     "price_change_percent_in_one_year": "-18.17",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.0",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "66"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "74"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "73"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "70"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "65"
+      }
+    ],
+    "price_year1": 9.46,
     "dividents": [
       {
         "DATE": "2018-06-28",
@@ -5032,18 +8044,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.61"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "69"
   },
   {
-    "code": "sh600456",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.05",
-    "NAV_per_share_year1": "7.67",
-    "year1": "2017",
-    "pay_divident_since": "2003",
-    "price_year1": 23.61,
+    "divident_per_share_lastYear": "0.05",
     "EPS_year1": "0.05",
+    "code": "sh600456",
+    "NAV_per_share_lastYear": "7.84",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.9"
+      }
+    ],
     "price_change_percent_in_one_year": "42.83",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "2.0",
+    "pay_divident_since": "2003",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "48"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "40"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "39"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "35"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "31"
+      }
+    ],
+    "price_year1": 23.61,
     "dividents": [
       {
         "DATE": "2018-07-04",
@@ -5149,18 +8239,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.01"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "48"
   },
   {
-    "code": "sh600483",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.20",
-    "NAV_per_share_year1": "6.24",
-    "year1": "2017",
-    "pay_divident_since": "2004",
-    "price_year1": 7.56,
+    "divident_per_share_lastYear": "0.20",
     "EPS_year1": "0.54",
+    "code": "sh600483",
+    "NAV_per_share_lastYear": "6.49",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "3.4"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.5"
+      }
+    ],
     "price_change_percent_in_one_year": "-31.71",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.5",
+    "pay_divident_since": "2004",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "50"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "44"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "41"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "53"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "32"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "35"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "36"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "36"
+      }
+    ],
+    "price_year1": 7.56,
     "dividents": [
       {
         "DATE": "2018-06-08",
@@ -5250,18 +8418,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.02"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "50"
   },
   {
-    "code": "sh600510",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.11",
-    "NAV_per_share_year1": "7.39",
-    "year1": "2017",
-    "pay_divident_since": "2004",
-    "price_year1": 6.62,
+    "divident_per_share_lastYear": "0.14",
     "EPS_year1": "0.47",
+    "code": "sh600510",
+    "NAV_per_share_lastYear": "7.05",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.3"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "2.4"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.8"
+      }
+    ],
     "price_change_percent_in_one_year": "-23.29",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.6",
+    "pay_divident_since": "2004",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "63"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "62"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "67"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "56"
+      }
+    ],
+    "price_year1": 6.62,
     "dividents": [
       {
         "DATE": "2018-07-04",
@@ -5363,18 +8609,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.38"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "69"
   },
   {
-    "code": "sh600548",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.22",
-    "NAV_per_share_year1": "-3.46",
-    "year1": "2017",
-    "pay_divident_since": "2002",
-    "price_year1": 8.98,
+    "divident_per_share_lastYear": "0.30",
     "EPS_year1": "0.65",
+    "code": "sh600548",
+    "NAV_per_share_lastYear": "-5.65",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.5"
+      }
+    ],
     "price_change_percent_in_one_year": "5.65",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.5",
+    "pay_divident_since": "2002",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "62"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "53"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "51"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "57"
+      }
+    ],
+    "price_year1": 8.98,
     "dividents": [
       {
         "DATE": "2018-06-14",
@@ -5484,18 +8808,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.34"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "62"
   },
   {
-    "code": "sh600551",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.24",
-    "NAV_per_share_year1": "9.05",
-    "year1": "2017",
-    "pay_divident_since": "2003",
-    "price_year1": 11.74,
+    "divident_per_share_lastYear": "0.18",
     "EPS_year1": "0.59",
+    "code": "sh600551",
+    "NAV_per_share_lastYear": "9.10",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "2.6"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.6"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.3"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "2.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "2.9"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "3.2"
+      }
+    ],
     "price_change_percent_in_one_year": "-42.22",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "2.6",
+    "pay_divident_since": "2003",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "28"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "32"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "37"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "39"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "36"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "31"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "27"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "23"
+      }
+    ],
+    "price_year1": 11.74,
     "dividents": [
       {
         "DATE": "2018-06-26",
@@ -5581,18 +8983,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.51"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "29"
   },
   {
-    "code": "sh600561",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.03",
-    "NAV_per_share_year1": "-0.85",
-    "year1": "2017",
-    "pay_divident_since": "2004",
-    "price_year1": 8.2,
+    "divident_per_share_lastYear": "0.03",
     "EPS_year1": "0.09",
+    "code": "sh600561",
+    "NAV_per_share_lastYear": "-0.59",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.7"
+      }
+    ],
     "price_change_percent_in_one_year": "-40.92",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.4",
+    "pay_divident_since": "2004",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "71"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "74"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "68"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "62"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "71"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "68"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "60"
+      }
+    ],
+    "price_year1": 8.2,
     "dividents": [
       {
         "DATE": "2018-07-18",
@@ -5690,18 +9170,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.48"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "71"
   },
   {
-    "code": "sh600565",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.10",
-    "NAV_per_share_year1": "3.09",
-    "year1": "2017",
-    "pay_divident_since": "2003",
-    "price_year1": 4,
+    "divident_per_share_lastYear": "0.09",
     "EPS_year1": "0.28",
+    "code": "sh600565",
+    "NAV_per_share_lastYear": "3.16",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.5"
+      }
+    ],
     "price_change_percent_in_one_year": "-46.09",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.3",
+    "pay_divident_since": "2003",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "83"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "74"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "84"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "72"
+      }
+    ],
+    "price_year1": 4,
     "dividents": [
       {
         "DATE": "2018-07-12",
@@ -5807,18 +9365,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.02"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "83"
   },
   {
-    "code": "sh600578",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.17",
-    "NAV_per_share_year1": "3.12",
-    "year1": "2017",
-    "pay_divident_since": "2002",
-    "price_year1": 3.7,
+    "divident_per_share_lastYear": "0.06",
     "EPS_year1": "0.08",
+    "code": "sh600578",
+    "NAV_per_share_lastYear": "3.15",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.5"
+      }
+    ],
     "price_change_percent_in_one_year": "-11.90",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.5",
+    "pay_divident_since": "2002",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "59"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "68"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "64"
+      }
+    ],
+    "price_year1": 3.7,
     "dividents": [
       {
         "DATE": "2018-08-23",
@@ -5932,18 +9568,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.04"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "59"
   },
   {
-    "code": "sh600582",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.03",
-    "NAV_per_share_year1": "3.08",
-    "year1": "2017",
-    "pay_divident_since": "2002",
-    "price_year1": 4.65,
+    "divident_per_share_lastYear": "0.05",
     "EPS_year1": "0.23",
+    "code": "sh600582",
+    "NAV_per_share_lastYear": "3.25",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.7"
+      }
+    ],
     "price_change_percent_in_one_year": "-6.44",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "2.1",
+    "pay_divident_since": "2002",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "48"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "48"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "47"
+      }
+    ],
+    "price_year1": 4.65,
     "dividents": [
       {
         "DATE": "2018-05-14",
@@ -6037,18 +9751,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.21"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "45"
   },
   {
-    "code": "sh600585",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.50",
-    "NAV_per_share_year1": "15.27",
-    "year1": "2017",
-    "pay_divident_since": "2003",
-    "price_year1": 29.33,
+    "divident_per_share_lastYear": "1.20",
     "EPS_year1": "2.99",
+    "code": "sh600585",
+    "NAV_per_share_lastYear": "17.88",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "2.6"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.0"
+      }
+    ],
     "price_change_percent_in_one_year": "72.94",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "2.6",
+    "pay_divident_since": "2003",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "23"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "25"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "27"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "30"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "32"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "37"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "42"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "44"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "41"
+      }
+    ],
+    "price_year1": 29.33,
     "dividents": [
       {
         "DATE": "2018-06-19",
@@ -6150,18 +9942,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "1.17"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "23"
   },
   {
-    "code": "sh600611",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.07",
-    "NAV_per_share_year1": "3.39",
-    "year1": "2017",
-    "pay_divident_since": "2000",
-    "price_year1": 4.98,
+    "divident_per_share_lastYear": "0.12",
     "EPS_year1": "0.37",
+    "code": "sh600611",
+    "NAV_per_share_lastYear": "3.15",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.9"
+      }
+    ],
     "price_change_percent_in_one_year": "-24.20",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.2",
+    "pay_divident_since": "2000",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "41"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "38"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "39"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "38"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "38"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "40"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "38"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "44"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "42"
+      }
+    ],
+    "price_year1": 4.98,
     "dividents": [
       {
         "DATE": "2018-06-20",
@@ -6271,18 +10141,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.23"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "41"
   },
   {
-    "code": "sh600642",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.22",
-    "NAV_per_share_year1": "5.58",
-    "year1": "2017",
-    "pay_divident_since": "1997",
-    "price_year1": 5.86,
+    "divident_per_share_lastYear": "0.20",
     "EPS_year1": "0.38",
+    "code": "sh600642",
+    "NAV_per_share_lastYear": "5.60",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.3"
+      }
+    ],
     "price_change_percent_in_one_year": "-0.17",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.1",
+    "pay_divident_since": "1997",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "41"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "38"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "39"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "40"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "30"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "33"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "32"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "30"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "34"
+      }
+    ],
+    "price_year1": 5.86,
     "dividents": [
       {
         "DATE": "2018-08-09",
@@ -6412,18 +10360,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.32"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "41"
   },
   {
-    "code": "sh600674",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.30",
-    "NAV_per_share_year1": "5.10",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 10.18,
+    "divident_per_share_lastYear": "0.27",
     "EPS_year1": "0.74",
+    "code": "sh600674",
+    "NAV_per_share_lastYear": "5.46",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.2"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.4"
+      }
+    ],
     "price_change_percent_in_one_year": "17.01",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.2",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "22"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "21"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "22"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "23"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "28"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "37"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "44"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "52"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "42"
+      }
+    ],
+    "price_year1": 10.18,
     "dividents": [
       {
         "DATE": "2018-07-16",
@@ -6525,18 +10551,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.08"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "22"
   },
   {
-    "code": "sh600676",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.10",
-    "NAV_per_share_year1": "5.13",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 6.56,
+    "divident_per_share_lastYear": "0.14",
     "EPS_year1": "0.43",
+    "code": "sh600676",
+    "NAV_per_share_lastYear": "5.21",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "2.3"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.0"
+      }
+    ],
     "price_change_percent_in_one_year": "-26.87",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "2.3",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "32"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "33"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "37"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "44"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "48"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "49"
+      }
+    ],
+    "price_year1": 6.56,
     "dividents": [
       {
         "DATE": "2018-07-18",
@@ -6642,18 +10746,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.17"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "32"
   },
   {
-    "code": "sh600697",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.35",
-    "NAV_per_share_year1": "5.87",
-    "year1": "2017",
-    "pay_divident_since": "1996",
-    "price_year1": 25.72,
+    "divident_per_share_lastYear": "0.37",
     "EPS_year1": "1.92",
+    "code": "sh600697",
+    "NAV_per_share_lastYear": "4.39",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.4"
+      }
+    ],
     "price_change_percent_in_one_year": "-19.70",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.4",
+    "pay_divident_since": "1996",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "70"
+      }
+    ],
+    "price_year1": 25.72,
     "dividents": [
       {
         "DATE": "2018-07-05",
@@ -6775,18 +10957,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.83"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "75"
   },
   {
-    "code": "sh600717",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.23",
-    "NAV_per_share_year1": "6.18",
-    "year1": "2017",
-    "pay_divident_since": "1997",
-    "price_year1": 10.49,
+    "divident_per_share_lastYear": "0.15",
     "EPS_year1": "0.49",
+    "code": "sh600717",
+    "NAV_per_share_lastYear": "6.42",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.4"
+      }
+    ],
     "price_change_percent_in_one_year": "4.07",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.2",
+    "pay_divident_since": "1997",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "38"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "42"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "37"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "38"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "37"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "39"
+      }
+    ],
+    "price_year1": 10.49,
     "dividents": [
       {
         "DATE": "2018-06-14",
@@ -6900,18 +11160,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.48"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "38"
   },
   {
-    "code": "sh600720",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.06",
-    "NAV_per_share_year1": "5.75",
-    "year1": "2017",
-    "pay_divident_since": "1997",
-    "price_year1": 10.35,
+    "divident_per_share_lastYear": "0.23",
     "EPS_year1": "0.74",
+    "code": "sh600720",
+    "NAV_per_share_lastYear": "6.15",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.1"
+      }
+    ],
     "price_change_percent_in_one_year": "26.68",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.7",
+    "pay_divident_since": "1997",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "36"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "42"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "48"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "51"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "57"
+      }
+    ],
+    "price_year1": 10.35,
     "dividents": [
       {
         "DATE": "2018-07-12",
@@ -7021,18 +11359,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.63"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "36"
   },
   {
-    "code": "sh600729",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.56",
-    "NAV_per_share_year1": "11.33",
-    "year1": "2017",
-    "pay_divident_since": "1998",
-    "price_year1": 25.06,
+    "divident_per_share_lastYear": "0.60",
     "EPS_year1": "1.49",
+    "code": "sh600729",
+    "NAV_per_share_lastYear": "12.67",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.0"
+      }
+    ],
     "price_change_percent_in_one_year": "6.96",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.0",
+    "pay_divident_since": "1998",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "62"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "73"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "74"
+      }
+    ],
+    "price_year1": 25.06,
     "dividents": [
       {
         "DATE": "2018-06-01",
@@ -7158,18 +11574,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.71"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "60"
   },
   {
-    "code": "sh600736",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.08",
-    "NAV_per_share_year1": "5.22",
-    "year1": "2017",
-    "pay_divident_since": "2000",
-    "price_year1": 5.91,
+    "divident_per_share_lastYear": "0.15",
     "EPS_year1": "0.50",
+    "code": "sh600736",
+    "NAV_per_share_lastYear": "6.09",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.4"
+      }
+    ],
     "price_change_percent_in_one_year": "-34.55",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.8",
+    "pay_divident_since": "2000",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "66"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "64"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "71"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "75"
+      }
+    ],
+    "price_year1": 5.91,
     "dividents": [
       {
         "DATE": "2018-05-10",
@@ -7287,18 +11781,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.27"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "66"
   },
   {
-    "code": "sh600741",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "1.00",
-    "NAV_per_share_year1": "12.18",
-    "year1": "2017",
-    "pay_divident_since": "1998",
-    "price_year1": 29.69,
+    "divident_per_share_lastYear": "1.05",
     "EPS_year1": "2.08",
+    "code": "sh600741",
+    "NAV_per_share_lastYear": "12.50",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.5"
+      }
+    ],
     "price_change_percent_in_one_year": "86.14",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.2",
+    "pay_divident_since": "1998",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "47"
+      }
+    ],
+    "price_year1": 29.69,
     "dividents": [
       {
         "DATE": "2018-07-13",
@@ -7404,18 +11976,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.79"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "60"
   },
   {
-    "code": "sh600742",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.42",
-    "NAV_per_share_year1": "8.58",
-    "year1": "2017",
-    "pay_divident_since": "1997",
-    "price_year1": 16.51,
+    "divident_per_share_lastYear": "0.42",
     "EPS_year1": "0.92",
+    "code": "sh600742",
+    "NAV_per_share_lastYear": "8.95",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.4"
+      }
+    ],
     "price_change_percent_in_one_year": "2.36",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.4",
+    "pay_divident_since": "1997",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "41"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "42"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "41"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "37"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "35"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "35"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "30"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "29"
+      }
+    ],
+    "price_year1": 16.51,
     "dividents": [
       {
         "DATE": "2018-06-07",
@@ -7525,18 +12175,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "1.12"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "41"
   },
   {
-    "code": "sh600743",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.10",
-    "NAV_per_share_year1": "3.08",
-    "year1": "2017",
-    "pay_divident_since": "2009",
-    "price_year1": 3.66,
+    "divident_per_share_lastYear": "0.10",
     "EPS_year1": "0.35",
+    "code": "sh600743",
+    "NAV_per_share_lastYear": "3.11",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "2.0"
+      }
+    ],
     "price_change_percent_in_one_year": "-17.75",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.5",
+    "pay_divident_since": "2009",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "81"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "78"
+      }
+    ],
+    "price_year1": 3.66,
     "dividents": [
       {
         "DATE": "2018-06-04",
@@ -7622,18 +12350,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.17"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "81"
   },
   {
-    "code": "sh600748",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.04",
-    "NAV_per_share_year1": "5.24",
-    "year1": "2017",
-    "pay_divident_since": "2004",
-    "price_year1": 6.41,
+    "divident_per_share_lastYear": "0.05",
     "EPS_year1": "0.47",
+    "code": "sh600748",
+    "NAV_per_share_lastYear": "5.32",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.4"
+      }
+    ],
     "price_change_percent_in_one_year": "-21.73",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.9",
+    "pay_divident_since": "2004",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "70"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "71"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "71"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "63"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "66"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "83"
+      }
+    ],
+    "price_year1": 6.41,
     "dividents": [
       {
         "DATE": "2018-07-19",
@@ -7735,18 +12541,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.18"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "69"
   },
   {
-    "code": "sh600755",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.22",
-    "NAV_per_share_year1": "12.53",
-    "year1": "2017",
-    "pay_divident_since": "2003",
-    "price_year1": 10.1,
+    "divident_per_share_lastYear": "0.20",
     "EPS_year1": "0.89",
+    "code": "sh600755",
+    "NAV_per_share_lastYear": "13.79",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.2"
+      }
+    ],
     "price_change_percent_in_one_year": "23.17",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.3",
+    "pay_divident_since": "2003",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "64"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "67"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "77"
+      }
+    ],
+    "price_year1": 10.1,
     "dividents": [
       {
         "DATE": "2018-07-06",
@@ -7856,18 +12740,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.29"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "69"
   },
   {
-    "code": "sh600761",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.25",
-    "NAV_per_share_year1": "5.84",
-    "year1": "2017",
-    "pay_divident_since": "1999",
-    "price_year1": 10.52,
+    "divident_per_share_lastYear": "0.50",
     "EPS_year1": "0.55",
+    "code": "sh600761",
+    "NAV_per_share_lastYear": "5.96",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "2.3"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.7"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.5"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "2.4"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.8"
+      }
+    ],
     "price_change_percent_in_one_year": "-17.30",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "2.3",
+    "pay_divident_since": "1999",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "34"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "32"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "27"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "27"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "30"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "32"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "33"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "34"
+      }
+    ],
+    "price_year1": 10.52,
     "dividents": [
       {
         "DATE": "2018-06-20",
@@ -7981,18 +12943,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.49"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "34"
   },
   {
-    "code": "sh600795",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.11",
-    "NAV_per_share_year1": "2.47",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 3.12,
+    "divident_per_share_lastYear": "0.08",
     "EPS_year1": "0.11",
+    "code": "sh600795",
+    "NAV_per_share_lastYear": "2.54",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.2"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.2"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.2"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.2"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.2"
+      }
+    ],
     "price_change_percent_in_one_year": "-1.58",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.4",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "74"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "73"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "73"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "73"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "76"
+      }
+    ],
+    "price_year1": 3.12,
     "dividents": [
       {
         "DATE": "2018-07-09",
@@ -8106,18 +13146,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.16"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "74"
   },
   {
-    "code": "sh600801",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.10",
-    "NAV_per_share_year1": "5.63",
-    "year1": "2017",
-    "pay_divident_since": "1996",
-    "price_year1": 14.13,
+    "divident_per_share_lastYear": "0.28",
     "EPS_year1": "1.39",
+    "code": "sh600801",
+    "NAV_per_share_lastYear": "7.55",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.8"
+      }
+    ],
     "price_change_percent_in_one_year": "82.32",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.0",
+    "pay_divident_since": "1996",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "59"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "62"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "64"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "68"
+      }
+    ],
+    "price_year1": 14.13,
     "dividents": [
       {
         "DATE": "2018-06-08",
@@ -8239,18 +13357,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.38"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "49"
   },
   {
-    "code": "sh600826",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.60",
-    "NAV_per_share_year1": "8.18",
-    "year1": "2017",
-    "pay_divident_since": "1998",
-    "price_year1": 13.17,
+    "divident_per_share_lastYear": "0.21",
     "EPS_year1": "0.69",
+    "code": "sh600826",
+    "NAV_per_share_lastYear": "6.96",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "2.8"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.9"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "3.0"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.8"
+      }
+    ],
     "price_change_percent_in_one_year": "-51.79",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "2.8",
+    "pay_divident_since": "1998",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "27"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "25"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "28"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "24"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "25"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "26"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "26"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "25"
+      }
+    ],
+    "price_year1": 13.17,
     "dividents": [
       {
         "DATE": "2018-07-30",
@@ -8336,18 +13532,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.22"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "29"
   },
   {
-    "code": "sh600835",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.43",
-    "NAV_per_share_year1": "9.42",
-    "year1": "2017",
-    "pay_divident_since": "2000",
-    "price_year1": 24.5,
+    "divident_per_share_lastYear": "0.48",
     "EPS_year1": "1.36",
+    "code": "sh600835",
+    "NAV_per_share_lastYear": "10.03",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.5"
+      }
+    ],
     "price_change_percent_in_one_year": "25.51",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.4",
+    "pay_divident_since": "2000",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "63"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "63"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "71"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "70"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "51"
+      }
+    ],
+    "price_year1": 24.5,
     "dividents": [
       {
         "DATE": "2018-06-14",
@@ -8465,18 +13739,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.65"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "61"
   },
   {
-    "code": "sh600837",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.22",
-    "NAV_per_share_year1": "9.79",
-    "year1": "2017",
-    "pay_divident_since": "2002",
-    "price_year1": 12.87,
+    "divident_per_share_lastYear": "0.23",
     "EPS_year1": "0.75",
+    "code": "sh600837",
+    "NAV_per_share_lastYear": "9.77",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "-18.29",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2002",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "62"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "52"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "53"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "60"
+      }
+    ],
+    "price_year1": 12.87,
     "dividents": [
       {
         "DATE": "2018-07-31",
@@ -8578,18 +13893,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.32"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "77"
   },
   {
-    "code": "sh600858",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.02",
-    "NAV_per_share_year1": "2.78",
-    "year1": "2017",
-    "pay_divident_since": "2007",
-    "price_year1": 7.32,
+    "divident_per_share_lastYear": "0.03",
     "EPS_year1": "0.09",
+    "code": "sh600858",
+    "NAV_per_share_lastYear": "2.88",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.6"
+      }
+    ],
     "price_change_percent_in_one_year": "-21.79",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.5",
+    "pay_divident_since": "2007",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "73"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "71"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "70"
+      }
+    ],
+    "price_year1": 7.32,
     "dividents": [
       {
         "DATE": "2018-08-15",
@@ -8683,18 +14076,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.22"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "76"
   },
   {
-    "code": "sh600859",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.43",
-    "NAV_per_share_year1": "10.72",
-    "year1": "2017",
-    "pay_divident_since": "1997",
-    "price_year1": 20.4,
+    "divident_per_share_lastYear": "0.36",
     "EPS_year1": "1.17",
+    "code": "sh600859",
+    "NAV_per_share_lastYear": "11.40",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.8"
+      }
+    ],
     "price_change_percent_in_one_year": "25.31",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.3",
+    "pay_divident_since": "1997",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "40"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "47"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "50"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "51"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "55"
+      }
+    ],
+    "price_year1": 20.4,
     "dividents": [
       {
         "DATE": "2018-06-06",
@@ -8812,18 +14283,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.51"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "47"
   },
   {
-    "code": "sh600873",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.30",
-    "NAV_per_share_year1": "2.62",
-    "year1": "2017",
-    "pay_divident_since": "1997",
-    "price_year1": 5.16,
+    "divident_per_share_lastYear": "0.33",
     "EPS_year1": "0.38",
+    "code": "sh600873",
+    "NAV_per_share_lastYear": "2.40",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.1"
+      }
+    ],
     "price_change_percent_in_one_year": "-20.86",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.8",
+    "pay_divident_since": "1997",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "50"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "53"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "59"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "68"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "63"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "48"
+      }
+    ],
+    "price_year1": 5.16,
     "dividents": [
       {
         "DATE": "2018-07-27",
@@ -8905,18 +14454,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.03"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "50"
   },
   {
-    "code": "sh600886",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.20",
-    "NAV_per_share_year1": "3.78",
-    "year1": "2017",
-    "pay_divident_since": "2005",
-    "price_year1": 7.34,
+    "divident_per_share_lastYear": "0.17",
     "EPS_year1": "0.48",
+    "code": "sh600886",
+    "NAV_per_share_lastYear": "4.76",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.3"
+      }
+    ],
     "price_change_percent_in_one_year": "10.04",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.7",
+    "pay_divident_since": "2005",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "71"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "83"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "82"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "84"
+      }
+    ],
+    "price_year1": 7.34,
     "dividents": [
       {
         "DATE": "2018-08-06",
@@ -9018,18 +14645,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.07"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "69"
   },
   {
-    "code": "sh600897",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "1.01",
-    "NAV_per_share_year1": "10.98",
-    "year1": "2017",
-    "pay_divident_since": "2001",
-    "price_year1": 22.48,
+    "divident_per_share_lastYear": "1.04",
     "EPS_year1": "1.38",
+    "code": "sh600897",
+    "NAV_per_share_lastYear": "11.23",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "4.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "4.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "4.9"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "3.5"
+      }
+    ],
     "price_change_percent_in_one_year": "-0.57",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.5",
+    "pay_divident_since": "2001",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "17"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "18"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "19"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "19"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "21"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "10"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "10"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "8"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "10"
+      }
+    ],
+    "price_year1": 22.48,
     "dividents": [
       {
         "DATE": "2018-07-12",
@@ -9143,18 +14848,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.94"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "17"
   },
   {
-    "code": "sh600983",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.10",
-    "NAV_per_share_year1": "4.69",
-    "year1": "2017",
-    "pay_divident_since": "2005",
-    "price_year1": 7.2,
+    "divident_per_share_lastYear": "0.05",
     "EPS_year1": "-0.13",
+    "code": "sh600983",
+    "NAV_per_share_lastYear": "5.10",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.3"
+      }
+    ],
     "price_change_percent_in_one_year": "-38.25",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.4",
+    "pay_divident_since": "2005",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "48"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "54"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "66"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "67"
+      }
+    ],
+    "price_year1": 7.2,
     "dividents": [
       {
         "DATE": "2018-07-16",
@@ -9256,18 +15039,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.40"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "48"
   },
   {
-    "code": "sh600987",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.26",
-    "NAV_per_share_year1": "5.38",
-    "year1": "2017",
-    "pay_divident_since": "2005",
-    "price_year1": 11.28,
+    "divident_per_share_lastYear": "0.28",
     "EPS_year1": "0.90",
+    "code": "sh600987",
+    "NAV_per_share_lastYear": "5.77",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "3.4"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "3.5"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "3.6"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.7"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "2.6"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "3.3"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "3.1"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "2.1"
+      }
+    ],
     "price_change_percent_in_one_year": "-8.59",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "3.4",
+    "pay_divident_since": "2005",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "19"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "18"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "18"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "23"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "32"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "28"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "23"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "24"
+      }
+    ],
+    "price_year1": 11.28,
     "dividents": [
       {
         "DATE": "2018-05-17",
@@ -9365,18 +15226,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.37"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "19"
   },
   {
-    "code": "sh600999",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.19",
-    "NAV_per_share_year1": "11.82",
-    "year1": "2017",
-    "pay_divident_since": "2010",
-    "price_year1": 17.16,
+    "divident_per_share_lastYear": "0.35",
     "EPS_year1": "0.78",
+    "code": "sh600999",
+    "NAV_per_share_lastYear": "11.91",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "5.08",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2010",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "73"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "75"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "83"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "67"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "66"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "64"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "75"
+      }
+    ],
+    "price_year1": 17.16,
     "dividents": [
       {
         "DATE": "2018-08-16",
@@ -9462,18 +15364,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.48"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "73"
   },
   {
-    "code": "sh601006",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.25",
-    "NAV_per_share_year1": "6.29",
-    "year1": "2017",
-    "pay_divident_since": "2007",
-    "price_year1": 9.07,
+    "divident_per_share_lastYear": "0.47",
     "EPS_year1": "0.90",
+    "code": "sh601006",
+    "NAV_per_share_lastYear": "6.60",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.0"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.5"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.5"
+      }
+    ],
     "price_change_percent_in_one_year": "28.11",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.7",
+    "pay_divident_since": "2007",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "20"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "21"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "26"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "21"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "21"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "26"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "30"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "33"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "44"
+      }
+    ],
+    "price_year1": 9.07,
     "dividents": [
       {
         "DATE": "2018-06-27",
@@ -9563,18 +15543,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.70"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "20"
   },
   {
-    "code": "sh601009",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.19",
-    "NAV_per_share_year1": "7.90",
-    "year1": "2017",
-    "pay_divident_since": "2008",
-    "price_year1": 7.74,
+    "divident_per_share_lastYear": "0.35",
     "EPS_year1": "1.09",
+    "code": "sh601009",
+    "NAV_per_share_lastYear": "8.76",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "-28.60",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2008",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "91"
+      }
+    ],
+    "price_year1": 7.74,
     "dividents": [
       {
         "DATE": "2018-08-07",
@@ -9660,18 +15681,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.32"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "94"
   },
   {
-    "code": "sh601088",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "2.97",
-    "NAV_per_share_year1": "13.23",
-    "year1": "2017",
-    "pay_divident_since": "2008",
-    "price_year1": 23.17,
+    "divident_per_share_lastYear": "0.91",
     "EPS_year1": "2.26",
+    "code": "sh601088",
+    "NAV_per_share_lastYear": "14.37",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.6"
+      }
+    ],
     "price_change_percent_in_one_year": "43.20",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.9",
+    "pay_divident_since": "2008",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "33"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "34"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "34"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "35"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "33"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "35"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "33"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "34"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "36"
+      }
+    ],
+    "price_year1": 23.17,
     "dividents": [
       {
         "DATE": "2018-07-06",
@@ -9757,18 +15856,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "1.87"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "33"
   },
   {
-    "code": "sh601098",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.50",
-    "NAV_per_share_year1": "7.02",
-    "year1": "2017",
-    "pay_divident_since": "2011",
-    "price_year1": 13.89,
+    "divident_per_share_lastYear": "0.60",
     "EPS_year1": "0.84",
+    "code": "sh601098",
+    "NAV_per_share_lastYear": "6.92",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "2.8"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "3.0"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "3.1"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "3.1"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "3.2"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "3.1"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "3.1"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "3.0"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "2.9"
+      }
+    ],
     "price_change_percent_in_one_year": "-16.63",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "2.8",
+    "pay_divident_since": "2011",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "31"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "28"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "28"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "27"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "27"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "27"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "27"
+      }
+    ],
+    "price_year1": 13.89,
     "dividents": [
       {
         "DATE": "2018-07-05",
@@ -9842,18 +16019,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.41"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "31"
   },
   {
-    "code": "sh601107",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.11",
-    "NAV_per_share_year1": "-3.63",
-    "year1": "2017",
-    "pay_divident_since": "2009",
-    "price_year1": 4.12,
+    "divident_per_share_lastYear": "0.10",
     "EPS_year1": "0.29",
+    "code": "sh601107",
+    "NAV_per_share_lastYear": "-3.32",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.6"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.9"
+      }
+    ],
     "price_change_percent_in_one_year": "-18.58",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.7",
+    "pay_divident_since": "2009",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "62"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "52"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "29"
+      }
+    ],
+    "price_year1": 4.12,
     "dividents": [
       {
         "DATE": "2018-06-21",
@@ -9935,18 +16190,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.37"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "58"
   },
   {
-    "code": "sh601117",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.11",
-    "NAV_per_share_year1": "5.36",
-    "year1": "2017",
-    "pay_divident_since": "2011",
-    "price_year1": 6.75,
+    "divident_per_share_lastYear": "0.10",
     "EPS_year1": "0.32",
+    "code": "sh601117",
+    "NAV_per_share_lastYear": "5.61",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.4"
+      }
+    ],
     "price_change_percent_in_one_year": "-0.30",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.4",
+    "pay_divident_since": "2011",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "67"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "65"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "66"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "68"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "67"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "66"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "61"
+      }
+    ],
+    "price_year1": 6.75,
     "dividents": [
       {
         "DATE": "2018-06-26",
@@ -10020,18 +16353,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.34"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "67"
   },
   {
-    "code": "sh601126",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.18",
-    "NAV_per_share_year1": "4.40",
-    "year1": "2017",
-    "pay_divident_since": "2011",
-    "price_year1": 7.83,
+    "divident_per_share_lastYear": "0.18",
     "EPS_year1": "0.29",
+    "code": "sh601126",
+    "NAV_per_share_lastYear": "4.42",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "2.7"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.7"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.5"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "2.3"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "2.6"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "2.6"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "2.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "4.2"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "3.1"
+      }
+    ],
     "price_change_percent_in_one_year": "-19.53",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "2.7",
+    "pay_divident_since": "2011",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "28"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "30"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "34"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "32"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "32"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "32"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "22"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "31"
+      }
+    ],
+    "price_year1": 7.83,
     "dividents": [
       {
         "DATE": "2018-05-23",
@@ -10105,18 +16516,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.24"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "29"
   },
   {
-    "code": "sh601158",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.28",
-    "NAV_per_share_year1": "2.74",
-    "year1": "2017",
-    "pay_divident_since": "2010",
-    "price_year1": 6.46,
+    "divident_per_share_lastYear": "0.30",
     "EPS_year1": "0.43",
+    "code": "sh601158",
+    "NAV_per_share_lastYear": "2.73",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "2.6"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "2.9"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "3.5"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "2.3"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "3.8"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "2.8"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "4.1"
+      }
+    ],
     "price_change_percent_in_one_year": "-13.06",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "2.6",
+    "pay_divident_since": "2010",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "24"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "33"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "31"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "36"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "34"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "31"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "33"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "33"
+      }
+    ],
+    "price_year1": 6.46,
     "dividents": [
       {
         "DATE": "2018-06-07",
@@ -10194,18 +16683,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.28"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "24"
   },
   {
-    "code": "sh601166",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.61",
-    "NAV_per_share_year1": "20.02",
-    "year1": "2017",
-    "pay_divident_since": "2007",
-    "price_year1": 16.99,
+    "divident_per_share_lastYear": "0.65",
     "EPS_year1": "2.74",
+    "code": "sh601166",
+    "NAV_per_share_lastYear": "21.82",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "5.27",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2007",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "95"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "95"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "95"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "95"
+      }
+    ],
+    "price_year1": 16.99,
     "dividents": [
       {
         "DATE": "2018-06-14",
@@ -10295,18 +16825,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.95"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "93"
   },
   {
-    "code": "sh601169",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.18",
-    "NAV_per_share_year1": "8.24",
-    "year1": "2017",
-    "pay_divident_since": "2008",
-    "price_year1": 7.15,
+    "divident_per_share_lastYear": "0.27",
     "EPS_year1": "0.85",
+    "code": "sh601169",
+    "NAV_per_share_lastYear": "8.84",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "-26.74",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2008",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "95"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "94"
+      }
+    ],
+    "price_year1": 7.15,
     "dividents": [
       {
         "DATE": "2018-07-11",
@@ -10392,18 +16963,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.32"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "93"
   },
   {
-    "code": "sh601186",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.16",
-    "NAV_per_share_year1": "8.03",
-    "year1": "2017",
-    "pay_divident_since": "2009",
-    "price_year1": 11.14,
+    "divident_per_share_lastYear": "0.18",
     "EPS_year1": "1.16",
+    "code": "sh601186",
+    "NAV_per_share_lastYear": "8.64",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.1"
+      }
+    ],
     "price_change_percent_in_one_year": "-6.86",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.2",
+    "pay_divident_since": "2009",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "81"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "83"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "85"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "85"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "84"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "83"
+      }
+    ],
+    "price_year1": 11.14,
     "dividents": [
       {
         "DATE": "2018-07-17",
@@ -10489,18 +17138,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.31"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "78"
   },
   {
-    "code": "sh601188",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.07",
-    "NAV_per_share_year1": "3.02",
-    "year1": "2017",
-    "pay_divident_since": "2011",
-    "price_year1": 4.12,
+    "divident_per_share_lastYear": "0.08",
     "EPS_year1": "0.27",
+    "code": "sh601188",
+    "NAV_per_share_lastYear": "3.13",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "3.0"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.7"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.8"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.9"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "3.1"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "4.3"
+      }
+    ],
     "price_change_percent_in_one_year": "-24.26",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "3.0",
+    "pay_divident_since": "2011",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "15"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "16"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "30"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "23"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "17"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "19"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "29"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "12"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "12"
+      }
+    ],
+    "price_year1": 4.12,
     "dividents": [
       {
         "DATE": "2018-07-30",
@@ -10574,18 +17301,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.07"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "15"
   },
   {
-    "code": "sh601288",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.16",
-    "NAV_per_share_year1": "4.00",
-    "year1": "2017",
-    "pay_divident_since": "2011",
-    "price_year1": 3.83,
+    "divident_per_share_lastYear": "0.17",
     "EPS_year1": "0.54",
+    "code": "sh601288",
+    "NAV_per_share_lastYear": "4.59",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "23.55",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2011",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "95"
+      }
+    ],
+    "price_year1": 3.83,
     "dividents": [
       {
         "DATE": "2018-05-24",
@@ -10659,18 +17427,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.31"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "93"
   },
   {
-    "code": "sh601328",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.27",
-    "NAV_per_share_year1": "8.99",
-    "year1": "2017",
-    "pay_divident_since": "2008",
-    "price_year1": 6.21,
+    "divident_per_share_lastYear": "0.29",
     "EPS_year1": "0.91",
+    "code": "sh601328",
+    "NAV_per_share_lastYear": "9.15",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "7.63",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2008",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "94"
+      }
+    ],
+    "price_year1": 6.21,
     "dividents": [
       {
         "DATE": "2018-07-13",
@@ -10772,18 +17581,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.55"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "93"
   },
   {
-    "code": "sh601369",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.15",
-    "NAV_per_share_year1": "3.49",
-    "year1": "2017",
-    "pay_divident_since": "2011",
-    "price_year1": 7.6,
+    "divident_per_share_lastYear": "0.16",
     "EPS_year1": "0.15",
+    "code": "sh601369",
+    "NAV_per_share_lastYear": "3.57",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.5"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.5"
+      }
+    ],
     "price_change_percent_in_one_year": "10.95",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.3",
+    "pay_divident_since": "2011",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "63"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "60"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "56"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "56"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "57"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "64"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "59"
+      }
+    ],
+    "price_year1": 7.6,
     "dividents": [
       {
         "DATE": "2018-06-25",
@@ -10857,18 +17744,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.42"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "63"
   },
   {
-    "code": "sh601390",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.09",
-    "NAV_per_share_year1": "4.54",
-    "year1": "2017",
-    "pay_divident_since": "2010",
-    "price_year1": 8.39,
+    "divident_per_share_lastYear": "0.11",
     "EPS_year1": "0.67",
+    "code": "sh601390",
+    "NAV_per_share_lastYear": "4.91",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.1"
+      }
+    ],
     "price_change_percent_in_one_year": "-5.30",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.1",
+    "pay_divident_since": "2010",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "80"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "84"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "85"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "84"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "83"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "81"
+      }
+    ],
+    "price_year1": 8.39,
     "dividents": [
       {
         "DATE": "2018-07-17",
@@ -10946,18 +17911,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.33"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "79"
   },
   {
-    "code": "sh601398",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.23",
-    "NAV_per_share_year1": "5.97",
-    "year1": "2017",
-    "pay_divident_since": "2007",
-    "price_year1": 6.2,
+    "divident_per_share_lastYear": "0.24",
     "EPS_year1": "0.79",
+    "code": "sh601398",
+    "NAV_per_share_lastYear": "6.36",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "40.59",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2007",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "94"
+      }
+    ],
+    "price_year1": 6.2,
     "dividents": [
       {
         "DATE": "2018-07-12",
@@ -11051,18 +18057,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.47"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "92"
   },
   {
-    "code": "sh601518",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.04",
-    "NAV_per_share_year1": "2.13",
-    "year1": "2017",
-    "pay_divident_since": "2011",
-    "price_year1": 3.53,
+    "divident_per_share_lastYear": "0.07",
     "EPS_year1": "0.22",
+    "code": "sh601518",
+    "NAV_per_share_lastYear": "2.55",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "2.2"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.3"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "3.6"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.6"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.2"
+      }
+    ],
     "price_change_percent_in_one_year": "-17.33",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "2.2",
+    "pay_divident_since": "2011",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "58"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "39"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "35"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "19"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "22"
+      }
+    ],
+    "price_year1": 3.53,
     "dividents": [
       {
         "DATE": "2018-05-15",
@@ -11136,18 +18220,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.10"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "43"
   },
   {
-    "code": "sh601668",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.15",
-    "NAV_per_share_year1": "4.80",
-    "year1": "2017",
-    "pay_divident_since": "2010",
-    "price_year1": 9.02,
+    "divident_per_share_lastYear": "0.15",
     "EPS_year1": "0.76",
+    "code": "sh601668",
+    "NAV_per_share_lastYear": "5.33",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.5"
+      }
+    ],
     "price_change_percent_in_one_year": "1.81",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.3",
+    "pay_divident_since": "2010",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "79"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "74"
+      }
+    ],
+    "price_year1": 9.02,
     "dividents": [
       {
         "DATE": "2018-06-28",
@@ -11225,18 +18387,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.22"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "79"
   },
   {
-    "code": "sh601717",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.01",
-    "NAV_per_share_year1": "5.41",
-    "year1": "2017",
-    "pay_divident_since": "2011",
-    "price_year1": 6.58,
+    "divident_per_share_lastYear": "0.05",
     "EPS_year1": "0.17",
+    "code": "sh601717",
+    "NAV_per_share_lastYear": "4.95",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.7"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "2.0"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "4.6"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "3.7"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "3.5"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "3.4"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "3.0"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "2.1"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "2.1"
+      }
+    ],
     "price_change_percent_in_one_year": "-6.40",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.7",
+    "pay_divident_since": "2011",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "55"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "40"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "17"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "20"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "21"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "23"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "28"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "40"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "43"
+      }
+    ],
+    "price_year1": 6.58,
     "dividents": [
       {
         "DATE": "2018-07-12",
@@ -11318,18 +18558,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.58"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "55"
   },
   {
-    "code": "sh601788",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.20",
-    "NAV_per_share_year1": "10.15",
-    "year1": "2017",
-    "pay_divident_since": "2009",
-    "price_year1": 13.43,
+    "divident_per_share_lastYear": "0.20",
     "EPS_year1": "0.65",
+    "code": "sh601788",
+    "NAV_per_share_lastYear": "10.21",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "-16.01",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2009",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "76"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "73"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "78"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "77"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "56"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "61"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "49"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "62"
+      }
+    ],
+    "price_year1": 13.43,
     "dividents": [
       {
         "DATE": "2018-07-05",
@@ -11411,18 +18692,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.47"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "76"
   },
   {
-    "code": "sh601818",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.09",
-    "NAV_per_share_year1": "5.76",
-    "year1": "2017",
-    "pay_divident_since": "2011",
-    "price_year1": 4.05,
+    "divident_per_share_lastYear": "0.18",
     "EPS_year1": "0.57",
+    "code": "sh601818",
+    "NAV_per_share_lastYear": "5.94",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "3.58",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2011",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "95"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "95"
+      }
+    ],
+    "price_year1": 4.05,
     "dividents": [
       {
         "DATE": "2018-07-26",
@@ -11496,18 +18818,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.28"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "93"
   },
   {
-    "code": "sh601857",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.11",
-    "NAV_per_share_year1": "5.90",
-    "year1": "2017",
-    "pay_divident_since": "2008",
-    "price_year1": 8.09,
+    "divident_per_share_lastYear": "0.09",
     "EPS_year1": "0.12",
+    "code": "sh601857",
+    "NAV_per_share_lastYear": "6.02",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "0.9"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "0.8"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "0.7"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "0.7"
+      }
+    ],
     "price_change_percent_in_one_year": "1.76",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "0.9",
+    "pay_divident_since": "2008",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "43"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "44"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "45"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "46"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "44"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "39"
+      }
+    ],
+    "price_year1": 8.09,
     "dividents": [
       {
         "DATE": "2018-09-20",
@@ -11637,18 +19037,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.76"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "43"
   },
   {
-    "code": "sh601939",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.28",
-    "NAV_per_share_year1": "7.04",
-    "year1": "2017",
-    "pay_divident_since": "2008",
-    "price_year1": 7.68,
+    "divident_per_share_lastYear": "0.29",
     "EPS_year1": "0.96",
+    "code": "sh601939",
+    "NAV_per_share_lastYear": "7.61",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "41.18",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2008",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "94"
+      }
+    ],
+    "price_year1": 7.68,
     "dividents": [
       {
         "DATE": "2018-07-16",
@@ -11738,18 +19179,59 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.56"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "92"
   },
   {
-    "code": "sh601988",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.17",
-    "NAV_per_share_year1": "5.01",
-    "year1": "2017",
-    "pay_divident_since": "2007",
-    "price_year1": 3.97,
+    "divident_per_share_lastYear": "0.18",
     "EPS_year1": "0.56",
+    "code": "sh601988",
+    "NAV_per_share_lastYear": "5.29",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [],
     "price_change_percent_in_one_year": "15.41",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "--",
+    "pay_divident_since": "2007",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "92"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "93"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "94"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "94"
+      }
+    ],
+    "price_year1": 3.97,
     "dividents": [
       {
         "DATE": "2018-07-12",
@@ -11839,18 +19321,96 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.37"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "92"
   },
   {
-    "code": "sh601992",
-    "last_close_date": "2018-11-22",
-    "divident_per_share_year1": "0.05",
-    "NAV_per_share_year1": "3.52",
-    "year1": "2017",
-    "pay_divident_since": "2011",
-    "price_year1": 5.43,
+    "divident_per_share_lastYear": "0.05",
     "EPS_year1": "0.27",
+    "code": "sh601992",
+    "NAV_per_share_lastYear": "3.37",
+    "last_close_date": "2018-11-22",
+    "current_debt_divide_current_assets": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "1.4"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "1.3"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "1.2"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "1.1"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "1.2"
+      }
+    ],
     "price_change_percent_in_one_year": "21.75",
+    "year1": "2017",
+    "current_debt_divide_current_asset_lastYear": "1.4",
+    "pay_divident_since": "2011",
+    "debt_asset_ratios": [
+      {
+        "DATE": "2018-09-30",
+        "VALUE": "70"
+      },
+      {
+        "DATE": "2017-12-31",
+        "VALUE": "70"
+      },
+      {
+        "DATE": "2016-12-31",
+        "VALUE": "70"
+      },
+      {
+        "DATE": "2015-12-31",
+        "VALUE": "68"
+      },
+      {
+        "DATE": "2014-12-31",
+        "VALUE": "69"
+      },
+      {
+        "DATE": "2013-12-31",
+        "VALUE": "70"
+      },
+      {
+        "DATE": "2012-12-31",
+        "VALUE": "70"
+      },
+      {
+        "DATE": "2011-12-31",
+        "VALUE": "72"
+      },
+      {
+        "DATE": "2010-12-31",
+        "VALUE": "69"
+      }
+    ],
+    "price_year1": 5.43,
     "dividents": [
       {
         "DATE": "2018-07-11",
@@ -11924,7 +19484,8 @@ return [
         "DATE": "2010-12-31",
         "VALUE": "0.28"
       }
-    ]
+    ],
+    "debt_asset_ratio_lastYear": "70"
   }
 ];
 			}

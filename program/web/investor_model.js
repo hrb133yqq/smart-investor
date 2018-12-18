@@ -25,12 +25,12 @@
 			});
 			Object.defineProperty(Stock.prototype, 'price_to_dividend_ratio_year1', {
 				get: function(){
-					return (this.divident_per_share_year1/this.latest_price*100).toFixed(1);
+					return (this.divident_per_share_lastYear/this.latest_price*100).toFixed(1);
 				}
 			});
 			Object.defineProperty(Stock.prototype, 'book_to_price_ratio', {
 				get: function(){
-					return (this.NAV_per_share_year1/this.latest_price).toFixed(1);
+					return (this.NAV_per_share_lastYear/this.latest_price).toFixed(1);
 				}
 			});
 			Object.defineProperty(Stock.prototype, 'EPS25_avg_7_minus_price', {
@@ -90,6 +90,8 @@
 					PER_year1: '市场与收益 '+lastYear.toString(),
 					price_to_dividend_ratio_year1: '股利率 '+lastYear.toString(),
 					book_to_price_ratio: '净有形资产比市价比率',
+					debt_asset_ratio_lastYear: '资产负债率',
+					current_debt_divide_current_asset_lastYear: '流动资产与流动负债比率',
 					//EPS25_avg_7_minus_price: '25倍(7年平均收益)-价格',
 					//PER20_year1_minus_price: '20倍('+lastYear.toString()+'年收益)-价格',
 					safe_price: '安全边际价格',
@@ -99,6 +101,8 @@
 					profit_history: '收益历史记录',
 					//dividents: '股息历史记录',
 					divident_history: '股息历史记录',
+					debt_asset_ratio_history: '资产负债率历史记录',
+					current_debt_divide_current_asset_history: '流动资产与流动负债比率历史记录',
 				};
 			}
 		});

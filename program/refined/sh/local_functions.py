@@ -305,7 +305,7 @@ def generate_data(secInfo):
         "dividents": dividents,
         "profits": profits,
         "debt_asset_ratios":debtAssetRatios,
-        "current_debt_divide_current_assets":currentDebtDivideCurrentAssets
+        "NAV_per_shares":NAV_perShares
   }
 
 def get_last_price_info(secInfo):

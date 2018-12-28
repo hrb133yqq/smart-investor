@@ -102,7 +102,7 @@
 					//dividents: '股息历史记录',
 					divident_history: '股息历史记录',
 					debt_asset_ratio_history: '资产负债率历史记录',
-					current_debt_divide_current_asset_history: '流动资产与流动负债比率历史记录',
+					NAV_per_share_history: '账户净值历史记录',
 				};
 			}
 		});

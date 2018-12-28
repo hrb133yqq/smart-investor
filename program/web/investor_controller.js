@@ -20,7 +20,7 @@
 				_addProfitHistory(sortedData)
 				_addDividentHistory(sortedData)
 				_addDebtAssetRatioHistory(sortedData)
-				_addCurrentDebtDivideCurrentAssetsHistory(sortedData)
+				_addNAVPerSharesHistory(sortedData)
 				_table(tableElement, header, sortedData)
 
 				_addOnClickEventToTableRow();
@@ -70,14 +70,14 @@
 			);
 		}
 
-		function _addCurrentDebtDivideCurrentAssetsHistory(sortedData){
+		function _addNAVPerSharesHistory(sortedData){
 			sortedData.forEach(
 				function(item){
-					var current_debt_divide_current_assets = item['current_debt_divide_current_assets'];
-					if(current_debt_divide_current_assets){
+					var NAV_per_shares = item['NAV_per_shares'];
+					if(NAV_per_shares){
 						var button = "<button onclick=\"this.parentElement.getElementsByTagName('div')[0].classList.toggle('hide')\">Show</button>";
-						var list = "<div class='hide'>" + _toString(current_debt_divide_current_assets) + "</div>";
-						item['current_debt_divide_current_asset_history'] = button + list;
+						var list = "<div class='hide'>" + _toString(NAV_per_shares) + "</div>";
+						item['NAV_per_share_history'] = button + list;
 					}
 				}
 			);

@@ -1,0 +1,2 @@
+manually download excel file from http://www.szse.cn/market/stock/list/index.html
+copy those columns to a new txt file

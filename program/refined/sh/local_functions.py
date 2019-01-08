@@ -46,7 +46,7 @@ def to_divident_info(info):
     }
 
 def is_D7Y(dividentInfo): # divident for 8 years
-    cur_year = date.today().year
+    cur_year = get_current_year()
     real_years = set([info['date'][:4] for info in dividentInfo])
     required_years = set([str(cur_year-x) for x in range(8)])
     return required_years.issubset(real_years)
@@ -413,4 +413,4 @@ def get_current_debt_divide_current_assets(secInfo):
     return sorted(profits, key=lambda x:x['DATE'], reverse=True)
 
 def get_current_year():
-    return date.today().year
+    return 2018

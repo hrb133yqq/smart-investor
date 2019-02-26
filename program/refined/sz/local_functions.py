@@ -59,6 +59,9 @@ def read_html_files_from_zip(fileName):
                 with myzip.open(name, 'r') as myfile:
                     yield html.parse(myfile).getroot()
 
+def has_balance_info(root):
+    return root.get_element_by_id('BalanceSheetNewTable0', False)
+
 def to_balance_info(root):
     code = get_code(root, 'BalanceSheetNewTable0')
     print code
@@ -108,6 +111,9 @@ def to_balance_info(root):
         'undistributedProfit':undistributedProfit,
         'capitalStock':capitalStock
     }
+
+def has_profit_info(root):
+    return root.get_element_by_id('ProfitStatementNewTable0', False)
 
 def to_profit_info(root):
     code = get_code(root, 'ProfitStatementNewTable0')
@@ -275,8 +281,8 @@ def generate_data(secInfo):
     lastPriceInfo = get_last_price_info(secInfo)
     year1PriceInfo = get_year1_price_info(secInfo)
     year2PriceInfo = get_year2_price_info(secInfo)
-    year1 = year1PriceInfo['closeDate'][:4]
-    lastYear = lastPriceInfo['closeDate'][:4]
+    year1 = year2PriceInfo['closeDate'][:4] # move -1 because of new year
+    lastYear = year1PriceInfo['closeDate'][:4] # move -1 because of new year
     profits = get_normalized_profits(secInfo)
     dividents = get_normalized_dividents(secInfo)
     NAV_perShares = get_NAV_per_shares(secInfo)
@@ -284,7 +290,7 @@ def generate_data(secInfo):
     currentDebtDivideCurrentAssets = get_current_debt_divide_current_assets(secInfo)
 
     return {
-        "code": 'sh'+code,
+        "code": 'sz'+code,
         "year1": year1,
         "EPS_year1": next(x['VALUE'] for x in profits if year1 in x['DATE']),
         "EPS_avg_7": str(

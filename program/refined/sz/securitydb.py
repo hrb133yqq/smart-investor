@@ -109,3 +109,22 @@ def get_valuable_security_info():
                     'equityChangeInfo':json.loads(info[6]),
                     'totalShares':info[7]
                 } for info in cur.fetchall()]
+
+def get_valuable_security_code():
+    conn = sqlite3.connect(dbName)
+    with conn:
+        cur = conn.cursor()
+        cur.execute("SELECT code FROM security WHERE is_D7Y=1")
+        print 'fetched all security code!'
+        return [code[0] for code in cur.fetchall()]
+
+def get_valuable_security_balance_info():
+    conn = sqlite3.connect(dbName)
+    with conn:
+        cur = conn.cursor()
+        cur.execute("SELECT code,balance_info FROM security WHERE is_D7Y=1")
+        print 'fetched valuable security info!'
+        return [{
+                    'code':info[0],
+                    'balanceInfo':json.loads(info[1])
+                } for info in cur.fetchall()]

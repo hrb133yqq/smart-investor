@@ -36,9 +36,8 @@
 				function(item){
 					var profits = item['profits'];
 					if(profits){
-						var button = "<button onclick=\"this.parentElement.getElementsByTagName('div')[0].classList.toggle('hide')\">Show</button>";
-						var list = "<div class='hide'>" + _toString(profits) + "</div>";
-						item['profit_history'] = button + list;
+						var list = _toNoSpaceList(profits);
+						item['profit_history'] = list;
 					}
 				}
 			);
@@ -49,9 +48,8 @@
 				function(item){
 					var dividents = item['dividents'];
 					if(dividents){
-						var button = "<button onclick=\"this.parentElement.getElementsByTagName('div')[0].classList.toggle('hide')\">Show</button>";
-						var list = "<div class='hide'>" + _toString(dividents) + "</div>";
-						item['divident_history'] = button + list;
+						var list = _toNoSpaceList(dividents);
+						item['divident_history'] = list;
 					}
 				}
 			);
@@ -62,9 +60,8 @@
 				function(item){
 					var debt_asset_ratios = item['debt_asset_ratios'];
 					if(debt_asset_ratios){
-						var button = "<button onclick=\"this.parentElement.getElementsByTagName('div')[0].classList.toggle('hide')\">Show</button>";
-						var list = "<div class='hide'>" + _toString(debt_asset_ratios) + "</div>";
-						item['debt_asset_ratio_history'] = button + list;
+						var list = _toNoSpaceList(debt_asset_ratios);
+						item['debt_asset_ratio_history'] = list;
 					}
 				}
 			);
@@ -75,14 +72,17 @@
 				function(item){
 					var NAV_per_shares = item['NAV_per_shares'];
 					if(NAV_per_shares){
-						var button = "<button onclick=\"this.parentElement.getElementsByTagName('div')[0].classList.toggle('hide')\">Show</button>";
-						var list = "<div class='hide'>" + _toString(NAV_per_shares) + "</div>";
-						item['NAV_per_share_history'] = button + list;
+						var list = _toNoSpaceList(NAV_per_shares);
+						item['NAV_per_share_history'] = list;
 					}
 				}
 			);
 		}
-
+		
+		function _toNoSpaceList(objArray){
+			return "<div class='noSpace hide'><div class='list'>" + _toString(objArray) + "</div></div>";
+		}
+		
 		function _toString(objArray){
 			var strArray = [];
 			objArray.forEach(function(item){
@@ -152,6 +152,11 @@
 				}
 			);
 		}
+		
+		function _debug(text){
+			var debugElement = document.querySelector('#debug');
+			debugElement.innerHTML = text;
+		}
 		/*
 		function _addFreezeClassToColumn(index){
 			var rowElements = document.querySelectorAll('#table .row');
@@ -194,6 +199,9 @@
 			window.addEventListener('scroll', function(e){
 				if(origY != window.scrollY){ // handle vertical scroll.
 					var rect = headerRowElement.getBoundingClientRect();
+					
+					_debug(rect.top);
+					
 					if(rect.top <= 0){
 						freezeHeaderRowElement.style.display = "flex";
 					}else{

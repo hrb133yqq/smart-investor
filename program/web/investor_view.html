@@ -21,7 +21,7 @@
 			.row >div{
 				border-right: 1px solid gray;
 				border-bottom: 1px solid gray;
-				flex: 0 0 90px;
+				flex: 0 0 80px;
 				word-wrap: break-word;
 				background-color: white;
 				box-sizing: border-box;
@@ -38,13 +38,27 @@
 			.row.selected div{
 				background-color: lightcyan !important;
 			}
-			.hide{
+			.row >div >.noSpace{
 				display: none;
+			}
+			.row.selected >div >.noSpace{
+				display: inherit;
+			}
+			.noSpace{
+				position: relative;
+				width: 0;
+				height: 0;
+			}
+			.list{
+				position: absolute;
+				opacity: 1;
+				width: 79px;
 			}
 		</style>
 	</head>
 	<body>
 		<div id="table"></div>
+		<div id="debug"></div>
 		<div id="words"></div>
 		<script src="investor_model.js" charset="utf-8"></script>
 		<script src="investor_data.js" charset="utf-8"></script>

@@ -204,6 +204,7 @@
 					
 					if(rect.top <= 0){
 						freezeHeaderRowElement.style.display = "flex";
+						_setDynamicHeader();
 					}else{
 						freezeHeaderRowElement.style.display = "none";
 					}
@@ -235,8 +236,27 @@
 					selectedRowElement.classList.remove('selected');
 				}
 			);
+			
+			_setDynamicHeader(this);
 
 			this.classList.add('selected');
+		}
+		
+		function _setDynamicHeader(ele){
+			if(ele){
+				var rect = ele.getBoundingClientRect();
+				freezeHeaderRowElement.style.top = rect.top - freezeHeaderRowElement.offsetHeight;
+				freezeHeaderRowElement.style.left = ele.childNodes[1].offsetLeft+ele.childNodes[1].offsetWidth;
+			}
+			else{				
+				var selectedRowElements = document.querySelectorAll('#table .row.selected');
+				if(selectedRowElements.length==0){ return; }
+				
+				ele = selectedRowElements[0];
+				var rect = ele.getBoundingClientRect();
+				freezeHeaderRowElement.style.top = rect.top - freezeHeaderRowElement.offsetHeight;
+				freezeHeaderRowElement.style.left = ele.childNodes[1].offsetLeft+ele.childNodes[1].offsetWidth;
+			}
 		}
 
 		return {

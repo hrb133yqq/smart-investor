@@ -14,7 +14,7 @@
 					script.onerror = null;
 					reject();
 				}
-				script.src = "http://hq.sinajs.cn/list=" + model.stockCodes.toString();
+				script.src = "http://hq.sinajs.cn/list=" + model.stockCodes.toString() + ",sh600469,sh601808,sh601618,sh600166";
 
 				document.head.appendChild( script );
 			});

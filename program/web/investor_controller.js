@@ -2,8 +2,10 @@
 	"use strict";
 	investor.controller = investor.controller || (function(){
 		var model = investor.model;
+		var balance = investor.balance;
 		var headerRowElement;
 		var freezeHeaderRowElement;
+		var selectedRowElement;
 
 		function _displayTable(){
 			var market = investor.market;
@@ -26,6 +28,7 @@
 				_addOnClickEventToTableRow();
 				//_addFreezeClassToHeaderRow();
 				//_addFreezeClassToColumn(0);
+				_showBalance();
 			});
 
 			_addScrollEvent();
@@ -109,7 +112,8 @@
 			freezeHeaderRowElement = _createRow(header, headerProperties);
 			freezeHeaderRowElement.classList.add('freezeHeader');
 			freezeHeaderRowElement.classList.add('header-row');
-			freezeHeaderRowElement.style.display = 'none';
+			freezeHeaderRowElement.style.display = 'flex';
+			freezeHeaderRowElement.style.visibility = 'hidden';
 			document.body.appendChild(freezeHeaderRowElement);
 		}
 
@@ -153,9 +157,81 @@
 			);
 		}
 		
-		function _debug(text){
-			var debugElement = document.querySelector('#debug');
-			debugElement.innerHTML = text;
+		function _showBalance(){
+			var element = document.querySelector('#balance');
+			var depositAmount = balance.depositAmount;
+			var investmentAmount = _getinvestmentAmount(balance.investments)
+			element.innerHTML = _toBalanceGraph(depositAmount, investmentAmount);
+		}
+		
+		function _getinvestmentAmount(investments){
+			var total = 0;
+			investments.forEach(function(investment){
+				var price = _getLastestPrice(investment.code);
+				var amount = investment.amount;
+				
+				total += price*amount;
+			})
+			return total;
+		}
+		
+		function _getLastestPrice(code){
+			var live_market_data = window['hq_str_'+code];
+			if(live_market_data){
+				//var hq_str_sh601006="大秦铁路, 27.55, 27.25, 26.91, 27.55, 26.20, 26.91, 26.92, 22114263, 589824680, 4695, 26.91, 57590, 26.90, 14700, 26.89, 14300, 26.88, 15100, 26.87, 3100, 26.92, 8900, 26.93, 14230, 26.94, 25150, 26.95, 15220, 26.96, 2008-01-11, 15:05:32";
+				var price = parseFloat(live_market_data.split(',')[3]);
+				if(price==0){
+					price = parseFloat(live_market_data.split(',')[2]);
+				}
+				return price;
+			}
+		}
+
+		function _toBalanceGraph(depositAmount, investmentAmount){
+			var height = 10;
+			var width = 500;
+			
+			// real
+			var investmentRealPercent = investmentAmount*1.0/(depositAmount+investmentAmount);
+			var x11 = (width*investmentRealPercent-1).toFixed(0);
+			var x12 = (width*investmentRealPercent+1).toFixed(0);
+			
+			// settings
+			var x21 = 0;
+			var x22 = width;
+			var investmentSettingPercent = 0.5;
+			var thresholdPercent = 0.1;
+			var x31 = (width*investmentSettingPercent*(1-thresholdPercent)).toFixed(0);
+			var x32 = (width*investmentSettingPercent*(1+thresholdPercent)).toFixed(0);
+
+			// difference between real and settings
+			var differencePercent = investmentRealPercent-investmentSettingPercent
+
+			var html_svg = '';			
+			html_svg += '<svg height="'+height+'" width="'+width+'">';
+			html_svg += '<line x1="'+x11+'" y1="2" x2="'+x12+'" y2="2" style="stroke:rgb(100,100,100);stroke-width:4" />';
+			html_svg += '<line x1="'+x21+'" y1="5" x2="'+x22+'" y2="5" style="stroke:rgb(100,100,100);stroke-width:2" />';
+			html_svg += '<line x1="'+x31+'" y1="7" x2="'+x32+'" y2="7" style="stroke:rgb(100,100,100);stroke-width:2" />';
+			html_svg += 'Sorry, your browser does not support inline SVG.'
+			html_svg += '</svg>'
+			var html_info = ''
+			html_info += '<div>当前值：'+(differencePercent*100).toFixed(1)+'%</div>'
+			html_info += '<div>预设域值：'+(thresholdPercent*100).toFixed(1)+'%</div>'
+			html_info += '<div>预设投资比例：'+(investmentSettingPercent*100).toFixed(1)+'%</div>'
+			
+			html_info += '<div>建议：'+_getAdvise(differencePercent, thresholdPercent)+'</div>'
+			
+			return html_svg + html_info;
+		}
+		
+		function _getAdvise(differencePercent, thresholdPercent){
+			if(Math.abs(differencePercent)>thresholdPercent){
+				if(differencePercent<0) { return '增加'; }
+				else { return '减少'; }
+			}
+			else{
+				return '不变';
+			}
 		}
 		/*
 		function _addFreezeClassToColumn(index){
@@ -194,29 +270,10 @@
 		*/
 
 		function _addScrollEvent(){
-			var origX = 0;
-			var origY = 0;
+			var timer;
 			window.addEventListener('scroll', function(e){
-				if(origY != window.scrollY){ // handle vertical scroll.
-					var rect = headerRowElement.getBoundingClientRect();
-					
-					_debug(rect.top);
-					
-					if(rect.top <= 0){
-						freezeHeaderRowElement.style.display = "flex";
-						_setDynamicHeader();
-					}else{
-						freezeHeaderRowElement.style.display = "none";
-					}
-
-					origY = window.scrollY;
-				}
-				if(origX != window.scrollX){ // handle horizontal scroll.
-					var leftOffset = headerRowElement.offsetLeft;
-					freezeHeaderRowElement.style.left = (leftOffset - window.scrollX).toString() + 'px';
-
-					origX = window.scrollX;
-				}
+				clearTimeout(timer);
+				setTimeout(function(){ _setDynamicHeader(); }, 150);
 			});
 		}
 
@@ -237,25 +294,24 @@
 				}
 			);
 			
-			_setDynamicHeader(this);
-
 			this.classList.add('selected');
+			selectedRowElement = this;
+			_setDynamicHeader();
 		}
 		
-		function _setDynamicHeader(ele){
-			if(ele){
-				var rect = ele.getBoundingClientRect();
+		function _setDynamicHeader(){
+			if(!selectedRowElement) return;
+			
+			var headerRect = headerRowElement.getBoundingClientRect();
+			
+			if(headerRect.top <= -10){
+				var rect = selectedRowElement.getBoundingClientRect();
 				freezeHeaderRowElement.style.top = rect.top - freezeHeaderRowElement.offsetHeight;
-				freezeHeaderRowElement.style.left = ele.childNodes[1].offsetLeft+ele.childNodes[1].offsetWidth;
-			}
-			else{				
-				var selectedRowElements = document.querySelectorAll('#table .row.selected');
-				if(selectedRowElements.length==0){ return; }
-				
-				ele = selectedRowElements[0];
-				var rect = ele.getBoundingClientRect();
-				freezeHeaderRowElement.style.top = rect.top - freezeHeaderRowElement.offsetHeight;
-				freezeHeaderRowElement.style.left = ele.childNodes[1].offsetLeft+ele.childNodes[1].offsetWidth;
+				freezeHeaderRowElement.style.left = selectedRowElement.childNodes[1].offsetLeft + selectedRowElement.childNodes[1].offsetWidth - window.scrollX;
+				freezeHeaderRowElement.style.visibility = 'visible';
+
+			}else{
+				freezeHeaderRowElement.style.visibility = 'hidden';
 			}
 		}
 

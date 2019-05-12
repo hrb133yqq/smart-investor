@@ -2,7 +2,7 @@
 	"use strict";
 	investor.balance = investor.balance || (function(){
 		var balance = {};
-		
+
 		Object.defineProperty(balance, 'investments', {
 			get: function(){
 return [
@@ -25,10 +25,10 @@ return [
 
 		Object.defineProperty(balance, 'depositAmount', {
 			get: function(){
-				return 135000;
+				return 135000.00;
 			}
 		});
-		
+
 		return balance;
 	}());
 }(window._investor = window._investor || {}));

@@ -81,11 +81,11 @@
 				}
 			);
 		}
-		
+
 		function _toNoSpaceList(objArray){
 			return "<div class='noSpace hide'><div class='list'>" + _toString(objArray) + "</div></div>";
 		}
-		
+
 		function _toString(objArray){
 			var strArray = [];
 			objArray.forEach(function(item){
@@ -156,25 +156,25 @@
 				}
 			);
 		}
-		
+
 		function _showBalance(){
 			var element = document.querySelector('#balance');
 			var depositAmount = balance.depositAmount;
 			var investmentAmount = _getinvestmentAmount(balance.investments)
 			element.innerHTML = _toBalanceGraph(depositAmount, investmentAmount);
 		}
-		
+
 		function _getinvestmentAmount(investments){
 			var total = 0;
 			investments.forEach(function(investment){
 				var price = _getLastestPrice(investment.code);
 				var amount = investment.amount;
-				
+
 				total += price*amount;
 			})
 			return total;
 		}
-		
+
 		function _getLastestPrice(code){
 			var live_market_data = window['hq_str_'+code];
 			if(live_market_data){
@@ -188,42 +188,50 @@
 		}
 
 		function _toBalanceGraph(depositAmount, investmentAmount){
+			// settings
 			var height = 10;
 			var width = 500;
-			
-			// real
-			var investmentRealPercent = investmentAmount*1.0/(depositAmount+investmentAmount);
-			var x11 = (width*investmentRealPercent-1).toFixed(0);
-			var x12 = (width*investmentRealPercent+1).toFixed(0);
-			
-			// settings
+
+			var thresholdPercent = 0.1;
+			var thresholdLength = width*thresholdPercent;
+
+			var investmentSettingPercent = 0.5;
+			var x11 = (width*investmentSettingPercent-thresholdLength/2).toFixed(0);
+			var x12 = (width*investmentSettingPercent+thresholdLength/2).toFixed(0);
+
 			var x21 = 0;
 			var x22 = width;
-			var investmentSettingPercent = 0.5;
-			var thresholdPercent = 0.1;
-			var x31 = (width*investmentSettingPercent*(1-thresholdPercent)).toFixed(0);
-			var x32 = (width*investmentSettingPercent*(1+thresholdPercent)).toFixed(0);
+
+			// test
+			//investmentAmount = 110000.0;
+
+			// real
+			var investmentRealPercent = investmentAmount/(depositAmount+investmentAmount);
+			var x31 = (width*investmentRealPercent-1).toFixed(0);
+			var x32 = (width*investmentRealPercent+1).toFixed(0);
 
 			// difference between real and settings
-			var differencePercent = investmentRealPercent-investmentSettingPercent
+			var differencePercent = (investmentRealPercent-investmentSettingPercent)*2
 
-			var html_svg = '';			
+			var html_svg = '';
 			html_svg += '<svg height="'+height+'" width="'+width+'">';
-			html_svg += '<line x1="'+x11+'" y1="2" x2="'+x12+'" y2="2" style="stroke:rgb(100,100,100);stroke-width:4" />';
-			html_svg += '<line x1="'+x21+'" y1="5" x2="'+x22+'" y2="5" style="stroke:rgb(100,100,100);stroke-width:2" />';
-			html_svg += '<line x1="'+x31+'" y1="7" x2="'+x32+'" y2="7" style="stroke:rgb(100,100,100);stroke-width:2" />';
+			html_svg += '<line x1="'+x11+'" y1="2" x2="'+x12+'" y2="2" style="stroke:rgb(100,100,100);stroke-width:2" />';
+			html_svg += '<line x1="'+x21+'" y1="4" x2="'+x22+'" y2="4" style="stroke:rgb(100,100,100);stroke-width:2" />';
+			html_svg += '<line x1="'+x31+'" y1="7" x2="'+x32+'" y2="7" style="stroke:rgb(100,100,100);stroke-width:4" />';
 			html_svg += 'Sorry, your browser does not support inline SVG.'
 			html_svg += '</svg>'
 			var html_info = ''
 			html_info += '<div>当前值：'+(differencePercent*100).toFixed(1)+'%</div>'
 			html_info += '<div>预设域值：'+(thresholdPercent*100).toFixed(1)+'%</div>'
 			html_info += '<div>预设投资比例：'+(investmentSettingPercent*100).toFixed(1)+'%</div>'
-			
+
 			html_info += '<div>建议：'+_getAdvise(differencePercent, thresholdPercent)+'</div>'
-			
+			html_info += '<div>L：'+(investmentAmount/1000.0).toFixed(1)+'</div>'
+			html_info += '<div>R：'+(depositAmount/1000.0).toFixed(1)+'</div>'
+
 			return html_svg + html_info;
 		}
-		
+
 		function _getAdvise(differencePercent, thresholdPercent){
 			if(Math.abs(differencePercent)>thresholdPercent){
 				if(differencePercent<0) { return '增加'; }
@@ -293,17 +301,17 @@
 					selectedRowElement.classList.remove('selected');
 				}
 			);
-			
+
 			this.classList.add('selected');
 			selectedRowElement = this;
 			_setDynamicHeader();
 		}
-		
+
 		function _setDynamicHeader(){
 			if(!selectedRowElement) return;
-			
+
 			var headerRect = headerRowElement.getBoundingClientRect();
-			
+
 			if(headerRect.top <= -10){
 				var rect = selectedRowElement.getBoundingClientRect();
 				freezeHeaderRowElement.style.top = rect.top - freezeHeaderRowElement.offsetHeight;

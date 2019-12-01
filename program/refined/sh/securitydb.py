@@ -109,3 +109,10 @@ def get_valuable_security_info():
                     'equityChangeInfo':json.loads(info[6]),
                     'totalShares':info[7]
                 } for info in cur.fetchall()]
+
+def delete_security(code):
+    conn = sqlite3.connect(dbName)
+    with conn:
+        cur = conn.cursor()
+        cur.execute('DELETE FROM security WHERE code=?', (code,))
+        print "deleted security!", code

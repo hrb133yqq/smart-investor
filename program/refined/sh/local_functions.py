@@ -413,4 +413,4 @@ def get_current_debt_divide_current_assets(secInfo):
     return sorted(profits, key=lambda x:x['DATE'], reverse=True)
 
 def get_current_year():
-    return 2018
+    return 2019

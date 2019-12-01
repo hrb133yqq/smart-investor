@@ -32,4 +32,4 @@ for code in codes:
     for search_info in search_info_arr:
         url = urlTemplate.format(code, search_info['inMonth'], search_info['inYear'], search_info['searchDate'])
         fileName = fileNameTemplate.format(code, search_info['inYear'])
-        net_functions.download(url, downloadHeaders, fileName, 5)
+        net_functions.download(url, downloadHeaders, fileName, 10)

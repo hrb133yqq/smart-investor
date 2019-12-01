@@ -17,4 +17,4 @@ def get_report_link_year_and_urls(root):
     return [(element.text, element.attrib['href']) for element in elements]
 
 def get_current_year():
-    return 2018
+    return 2019

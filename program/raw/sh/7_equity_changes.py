@@ -24,4 +24,4 @@ codes = securitydb.get_valuable_security_code()
 for code in codes:
     url = urlTemplate.format(code)
     fileName = fileNameTemplate.format(code)
-    net_functions.download(url, downloadHeaders, fileName, 5)
+    net_functions.download(url, downloadHeaders, fileName, 10)

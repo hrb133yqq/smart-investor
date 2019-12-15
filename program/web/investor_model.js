@@ -5,7 +5,7 @@
 		// PER price earning ratio
 		// NAV net asset value
 		var model = {};
-		var currentYear = 2018
+		var currentYear = 2019
 		var lastYear = currentYear-1
 		var beforeLastYear = lastYear - 1
 		var sevenYearBefore = currentYear - 7
@@ -61,6 +61,11 @@
 					return (this.price_diff/this.latest_price*100).toFixed(1);
 				}
 			});
+			Object.defineProperty(Stock.prototype, 'market_value', {
+				get: function(){
+					return (this.latest_price*this.total_shares/100000000).toFixed(1);
+				}
+			});
 			return Stock;
 		}());
 
@@ -97,12 +102,14 @@
 					safe_price: '安全边际价格',
 					//price_diff: '价差',
 					price_diff_ratio:'价差比率',
+					market_value: '市值',
 					//profits: '收益历史记录',
 					profit_history: '收益历史记录',
 					//dividents: '股息历史记录',
 					divident_history: '股息历史记录',
 					debt_asset_ratio_history: '资产负债率历史记录',
 					NAV_per_share_history: '账户净值历史记录',
+					goodwill_assets_history: '商誉历史记录',
 				};
 			}
 		});

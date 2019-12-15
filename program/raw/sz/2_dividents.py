@@ -6,6 +6,8 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+# prepare: remove old files in 2_dividents
+
 raw_sh = "../../../data/raw/sz/"
 fileNameTemplate = raw_sh + "2_dividents/{0}.html"
 urlTemplate = "http://vip.stock.finance.sina.com.cn/corp/go.php/vISSUE_ShareBonus/stockid/{0}.phtml"

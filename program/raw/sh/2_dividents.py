@@ -6,6 +6,8 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+# prepare: remove old files in 2_dividents
+
 urlTemplate="http://query.sse.com.cn/commonQuery.do?jsonCallBack=&isPagination=false&sqlId=COMMON_SSE_ZQPZ_GG_LYFP_AGFH_L&productid={0}"
 raw_sh = "../../../data/raw/sh/"
 

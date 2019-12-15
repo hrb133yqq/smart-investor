@@ -7,6 +7,8 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+# prepare: unzip 4_profit.zip and remove last year's files
+
 raw_sh = "../../../data/raw/sh/"
 fileNameTemplate = raw_sh + "4_profit/{0}_{1}.html"
 urlTemplate = "http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/{0}/ctrl/{1}/displaytype/4.phtml"

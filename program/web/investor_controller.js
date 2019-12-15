@@ -23,6 +23,7 @@
 				_addDividentHistory(sortedData)
 				_addDebtAssetRatioHistory(sortedData)
 				_addNAVPerSharesHistory(sortedData)
+				_addGoodwillAssetsHistory(sortedData)
 				_table(tableElement, header, sortedData)
 
 				_addOnClickEventToTableRow();
@@ -77,6 +78,18 @@
 					if(NAV_per_shares){
 						var list = _toNoSpaceList(NAV_per_shares);
 						item['NAV_per_share_history'] = list;
+					}
+				}
+			);
+		}
+
+		function _addGoodwillAssetsHistory(sortedData){
+			sortedData.forEach(
+				function(item){
+					var goodwill_assets = item['goodwill_assets'];
+					if(goodwill_assets){
+						var list = _toNoSpaceList(goodwill_assets);
+						item['goodwill_assets_history'] = list;
 					}
 				}
 			);

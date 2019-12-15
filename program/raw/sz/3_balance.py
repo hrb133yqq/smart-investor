@@ -7,6 +7,8 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+# prepare: unzip 3_balance.zip and remove last year's files
+
 raw_sz = "../../../data/raw/sz/"
 fileNameTemplate = raw_sz + "3_balance/{0}_{1}.html"
 urlTemplate = "http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/{0}/ctrl/{1}/displaytype/4.phtml"

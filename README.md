@@ -27,6 +27,7 @@ Envrionment set up
 1. install Python27
 2. install Microsoft Visual C++ 9.0 for Python 2.7
  Get it from http://aka.ms/vcpython27
-3. install lxml
+3. install lxml, requests
  pip install lxml
+ pip install requests
  
